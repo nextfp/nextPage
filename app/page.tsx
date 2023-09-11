@@ -18,13 +18,23 @@ function Header() {
 
 function HeroImage() {
   return (
-    <Image
-      className="object-cover"
-      fill
-      src={"/home/heroImage.png"}
-      alt="heroImage"
-      style={{ zIndex: -1 }}
-    />
+    <div
+      className="bg-cover bg-no-repeat mt-14"
+      style={{
+        height: "600px",
+        backgroundImage: `url(/home/heroImage.png)`,
+      }}
+    >
+      <div className="flex h-full mt-4">
+        <div className="grid grid-cols-12 w-full">
+          <div className="col-span-2"></div>
+          <div className="col-span-8 text-5xl">
+            <h1>Next Formula Projec</h1>
+          </div>
+          <div className="col-span-2"></div>
+        </div>
+      </div>
+    </div>
   );
 }
 
