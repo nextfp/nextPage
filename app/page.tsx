@@ -200,7 +200,101 @@ function Sponsor() {
 }
 
 function Digitization() {
-  return <div className="bg-white" style={{ height: "500px" }}></div>;
+  return (
+    <div className="bg-white">
+      <div className="grid grid-cols-12 py-32">
+        <div className="col-start-2 col-span-4">
+          <Image
+            src={"/home/DigitizationImage.png"}
+            alt="Suspension analysis image"
+            width={500}
+            height={500}
+          />
+        </div>
+        <div className="col-start-7 col-span-6">
+          <p className="text-4xl text-black">数字で見るNext FP</p>
+          <div className="grid grid-cols-6 gap-y-16 mt-12">
+            <div className="col-span-4 md:col-span-2">
+              <div className="border-white border border-b-black margin text-black ">
+                <p
+                  className="text-4xl border-white border border-b-black margin text-black pb-4 z-10"
+                  style={{ width: "2rem" }}
+                >
+                  35
+                </p>
+              </div>
+              <p className="mt-3 text-xl text-black">部員数</p>
+            </div>
+            <div className="col-span-1" />
+            <div className="col-span-4 md:col-span-2">
+              <div className="border-white border border-b-black margin text-black ">
+                <p
+                  className="text-4xl border-white border border-b-black margin text-black pb-4 z-10"
+                  style={{ width: "2rem" }}
+                >
+                  27
+                </p>
+              </div>
+              <p className="mt-3 text-xl text-black">スポンサー数</p>
+            </div>
+            <div className="col-span-4 md:col-span-2">
+              <div className="border-white border border-b-black margin text-black ">
+                <p
+                  className="text-4xl border-white border border-b-black margin text-black pb-4 z-10"
+                  style={{ width: "2rem" }}
+                >
+                  22
+                </p>
+              </div>
+              <p className="mt-3 text-xl text-black">2022年度大会総合順位</p>
+            </div>
+            <div className="col-span-1" />
+            <div className="col-span-4 md:col-span-2">
+              <div className="border-white border border-b-black margin text-black ">
+                <p
+                  className="text-4xl border-white border border-b-black margin text-black pb-4 z-10"
+                  style={{ width: "2rem" }}
+                >
+                  14
+                </p>
+              </div>
+              <p className="mt-3 text-xl text-black">大会出場回数</p>
+            </div>
+          </div>
+        </div>
+        <div className=""></div>
+      </div>
+    </div>
+  );
+}
+
+function Footer() {
+  return (
+    <div className="bg-white">
+      <div className="grid grid-cols-12 pb-6">
+        <div className="col-start-2 col-span-5">
+          <p className="text-3xl text-black">学生フォーミュラプロジェクト</p>
+          <p className="text-xl text-black mt-12">
+            〒305-8577 茨城県つくば市天王台1-1-1
+          </p>
+          <p className="text-xl text-black mt-12">筑波大学大学院工学研究科</p>
+          <p className="text-xl text-black mt-12">機械物理工学専攻</p>
+        </div>
+        <div className="col-start-7 col-span-5">
+          <center className="text-xl text-black mt-8">Follow us on</center>
+          <div>
+            <svg
+              className="fill-black stroke-black w-12 h-12 mt-20"
+              viewBox="0 0 1200 1227"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default function Home() {
@@ -223,6 +317,7 @@ export default function Home() {
         <Sponsor />
         <Digitization />
       </main>
+      <Footer />
     </>
   );
 }
