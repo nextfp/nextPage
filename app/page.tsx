@@ -20,16 +20,19 @@ function Header() {
 function HeroImage() {
   return (
     <div
-      className="bg-cover h-screen bg-no-repeat mt-14"
+      className="bg-cover h-screen bg-no-repeat"
       style={{
         backgroundImage: `url(/home/heroImage.png)`,
       }}
     >
-      <div className="flex h-full mt-4">
+      <div className="flex h-full">
         <div className="grid grid-cols-12 w-full">
-          <div className="col-span-2"></div>
-          <div className="col-span-8 text-6xl">
-            <h1>Next Formula Project</h1>
+          <div className="col-span-1"></div>
+          <div className="col-span-8 text-8xl mt-28 font-bold">
+            <h1>
+              Next Formula <br />
+              Project
+            </h1>
           </div>
           <div className="col-span-2"></div>
         </div>
