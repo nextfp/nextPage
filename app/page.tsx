@@ -4,16 +4,17 @@ import { SolidWorksLogo } from "@/public/home/solidWorks";
 import { SuzukiLogo } from "@/public/home/suzuki";
 import chassisImage from "@/public/home/ChassisImage.png";
 import radiatorAnalysis from "@/public/home/RadiatorAnalysis.png";
+import groupPhoto from "@/public/home/groupPhoto.jpg";
 import wakos from "@/public/home/wakos.jpg";
 import { Xlogo } from "@/public/footer/XLogo";
 import { InstagramLogo } from "@/public/footer/InstagramLogo";
 
 function Header() {
   return (
-    <header className="mt-5">
+    <header className="sticky top-0 z-50 w-full bg-gradient-to-b from-black py-6">
       <div className="container mx-auto  text-white pb-1">
         <div className="flex justify-between items-center mx-7">
-          <h1 className="text-4xl font-semibold ">Next FP</h1>
+          <h1 className="text-4xl font-semibold ">Next FP(準備中サイト)</h1>
           <div className="flex gap-4">
             <h4 className="text-xl">スポンサー</h4>
             <h4 className="text-xl">パート紹介</h4>
@@ -53,13 +54,30 @@ function HeroImage() {
 function WhatIsNextFP() {
   return (
     <section className="WhatIsNextFP">
-      <div className="mx-auto max-w-screen-2xl  px-12">
+      <div className="mx-auto max-w-screen-2xl  px-16">
         <div className="flex flex-col gap-12">
-          <header>
-            <h2 className="">Next FPとは</h2>
-          </header>
-          <div className="grid grid-cols-2 gap-8">
-            <div className="col-span-1"></div>
+          <div className="grid grid-cols-2 gap-20">
+            <div className="col-span-2 lg:col-span-1 flex flex-col gap-8">
+              <header>
+                <h2 className="text-4xl">Next FPとは</h2>
+              </header>
+              <p>
+                毎年9月に開催される学生フォーミュラ日本大会に向けてレーシングマシンを一から造るプロジェクトです
+              </p>
+              <p>
+                マシンの設計・製作だけでなく、スポンサーとの交流やプレゼンといった経験もできます。
+              </p>
+              <p>
+                3DCADや工作機械などによる、本格的なものづくりの楽しさを味わうことができる活動です！
+              </p>
+            </div>
+            <div className="col-span-2 lg:col-span-1 flex">
+              <Image
+                className="justify-self-end"
+                src={groupPhoto}
+                alt="Group photo by team members"
+              ></Image>
+            </div>
           </div>
         </div>
       </div>
@@ -120,7 +138,7 @@ function Design({ children }: { children: ReactNode }) {
   return (
     <section className="Design">
       <div className="bg-white" style={{ margin: "-5.5rem 0 0 0" }}>
-        <div className="mx-auto max-w-screen-2xl  px-12 py-22">
+        <div className="mx-auto max-w-screen-2xl  px-16 py-22">
           <header>
             <h2 className="text-4xl font-medium text-black">設計</h2>
           </header>
@@ -209,7 +227,7 @@ function PowerTrain({ children }: { children: ReactNode }) {
 function Sponsor() {
   return (
     <section className="Sponsor">
-      <div className="mx-auto max-w-screen-2xl px-12 flex flex-col gap-11">
+      <div className="mx-auto max-w-screen-2xl px-16 flex flex-col gap-11">
         <h1 className="text-4xl">私たちのスポンサー</h1>
         <div className="grid grid-cols-4 gap-8">
           <div className="col-span-4 xl:col-span-2">
@@ -243,7 +261,7 @@ function Digitization() {
   return (
     <section className="Digitization">
       <div className="bg-white">
-        <div className="mx-auto max-w-screen-2xl px-12 grid grid-cols-12 gap-16 py-32">
+        <div className="mx-auto max-w-screen-2xl px-16 grid grid-cols-12 gap-16 py-32">
           <div className="col-span-0 md:col-span-6 flex">
             <Image
               className="self-end hidden md:inline-block"
@@ -333,14 +351,24 @@ function Footer() {
           <div className="col-start-7 col-span-5">
             <center className="text-xl text-black mt-8">Follow us on</center>
             <div className="grid grid-cols-6 mt-20">
-              <Xlogo className="col-start-2 col-span-1 fill-black stroke-black w-12 h-12" />
-              <InstagramLogo className="col-start-4 col-span-1 w-12 h-12" />
-              <img
+              <a
+                className="col-start-2 col-span-1"
+                href="https://twitter.com/NEXT_Formula"
+              >
+                <Xlogo className="fill-black stroke-black w-12 h-12" />
+              </a>
+              <a
+                className="col-start-4 col-span-1"
+                href="https://www.instagram.com/next.fp/"
+              >
+                <InstagramLogo className="w-12 h-12" />
+              </a>
+              <a
                 className="col-start-6 col-span-1 mb-9"
-                src="footer/qiita.png"
-                width={54}
-                height={54}
-              />
+                href="https://qiita.com/nextfp"
+              >
+                <img src="footer/qiita.png" width={54} height={54} />
+              </a>
             </div>
             <div></div>
           </div>
