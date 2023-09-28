@@ -50,6 +50,23 @@ function HeroImage() {
   );
 }
 
+function WhatIsNextFP() {
+  return (
+    <section className="WhatIsNextFP">
+      <div className="mx-auto max-w-screen-2xl  px-12">
+        <div className="flex flex-col gap-12">
+          <header>
+            <h2 className="">Next FPとは</h2>
+          </header>
+          <div className="grid grid-cols-2 gap-8">
+            <div className="col-span-1"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function MaskImage({ children }: { children: ReactNode }) {
   return (
     <section className="flex flex-col MaskImage">
@@ -341,6 +358,7 @@ export default function Home() {
         <div className="grid grid-cols-12 gap-8">
           <main className="col-span-full flex flex-col gap-22" id="main">
             <HeroImage />
+            <WhatIsNextFP />
             <MaskImage>
               <WhatIsStudentFormula />
             </MaskImage>
