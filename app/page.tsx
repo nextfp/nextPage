@@ -8,6 +8,7 @@ import groupPhoto from "@/public/home/groupPhoto.jpg";
 import wakos from "@/public/home/wakos.jpg";
 import { Xlogo } from "@/public/footer/XLogo";
 import { InstagramLogo } from "@/public/footer/InstagramLogo";
+import QiitaLogo from "@/public/footer/qiita.png";
 
 function Header() {
   return (
@@ -350,12 +351,7 @@ function Footer() {
               className="col-span-1 col-start-6 mb-9"
               href="https://qiita.com/nextfp"
             >
-              <Image
-                src="footer/qiita.png"
-                alt="Qiita Logo"
-                width={54}
-                height={54}
-              />
+              <Image src={QiitaLogo} alt="Qiita Logo" width={54} height={54} />
             </a>
           </div>
           <div></div>
