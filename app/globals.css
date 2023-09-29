@@ -19,6 +19,7 @@
 */
 
 body {
+  -webkit-text-size-adjust: ("none" "100%" "auto");
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
