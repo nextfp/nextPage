@@ -18,6 +18,12 @@
 }
 */
 
+.appearance-none {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
 body {
   -webkit-text-size-adjust: ("none" "100%" "auto");
   color: rgb(var(--foreground-rgb));
