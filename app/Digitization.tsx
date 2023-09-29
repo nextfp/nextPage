@@ -4,9 +4,10 @@ export default function Digitization() {
   return (
     <section className="bg-white">
       <div className="mx-auto grid max-w-screen-2xl grid-cols-12 gap-16 px-16 py-32">
-        <div className="flex md:col-span-6">
+        <div className="md:col-span-6 hidden md:inline-block"></div>
+        <div className="flex ">
           <Image
-            className="hidden self-end md:inline-block"
+            className=" self-end "
             src={"/home/DigitizationImage.png"}
             alt="Suspension analysis image"
             width={500}
