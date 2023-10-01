@@ -1,5 +1,5 @@
 import Image from "next/image";
-import groupPhoto from "@/public/home/groupPhoto.jpg";
+import groupPhoto from "@/public/home/GroupPhoto.webp";
 
 export default function WhatIsNextFP() {
   return (

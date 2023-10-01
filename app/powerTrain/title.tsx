@@ -1,5 +1,5 @@
 import Image from "next/image";
-import powerTrainImage from "@/public/powerTrain/powerTrainImage.png";
+import powerTrainImage from "@/public/powerTrain/powerTrainImage.webp";
 
 export default function Title() {
   return (

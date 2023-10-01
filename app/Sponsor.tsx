@@ -1,5 +1,5 @@
 import Image from "next/image";
-import wakos from "@/public/home/wakos.jpg";
+import wakos from "@/public/home/wakos.webp";
 import { SuzukiLogo } from "@/public/home/suzuki";
 import { SolidWorksLogo } from "@/public/home/solidWorks";
 
