@@ -1,5 +1,5 @@
 import Image from "next/image";
-import chassisImage from "@/public/chassis/ChassisImage.png";
+import chassisImage from "@/public/chassis/ChassisImage.webp";
 
 export default function Title() {
   return (

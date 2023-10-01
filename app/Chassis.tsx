@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import Image from "next/image";
-import chassisImage from "@/public/home/ChassisImage.png";
+import chassisImage from "@/public/home/ChassisImage.webp";
 
 export default function Chassis({ children }: { children: ReactNode }) {
   return (

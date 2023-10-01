@@ -4,7 +4,7 @@ export default function HeroImage() {
       <div
         className="h-screen bg-cover bg-no-repeat"
         style={{
-          backgroundImage: `url(/home/heroImage.png)`,
+          backgroundImage: `url(/home/heroImage.webp)`,
         }}
       >
         <div className="flex h-full">
