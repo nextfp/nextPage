@@ -1,4 +1,6 @@
 import MobileNav from "./MobileNav";
+import Link from "./Link";
+import headerNavLinks from "@/data/headerNavLinks";
 
 export default function Header() {
   return (
@@ -6,15 +8,17 @@ export default function Header() {
       <div className="container mx-auto  pb-1 text-white">
         <div className="mx-7 flex items-center justify-between">
           <a className="text-4xl font-semibold" href="./">
-            Next FP(準備中サイト)
+            Next FP(β)
           </a>
           <div className="hidden md:block">
-            <div className="flex gap-4">
-              <h4 className="text-xl">スポンサー</h4>
-              <h4 className="text-xl">パート紹介</h4>
-              <a className="text-xl" href="./">
-                シャシー
-              </a>
+            <div className="flex gap-8">
+              {headerNavLinks
+                .filter((link) => link.href !== "/")
+                .map((link) => (
+                  <Link key={link.title} href={link.href} className="text-xl">
+                    {link.title}
+                  </Link>
+                ))}
             </div>
           </div>
           <MobileNav />

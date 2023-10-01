@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "./Link";
 import { Xlogo } from "@/public/footer/XLogo";
 import { InstagramLogo } from "@/public/footer/InstagramLogo";
 import QiitaLogo from "@/public/footer/qiita.png";
@@ -23,25 +24,31 @@ export default function Footer() {
         </div>
         <div className="col-span-5 col-start-7">
           <center className="mt-8 text-xl text-black">Follow us on</center>
-          <div className="mt-20 grid grid-cols-6">
-            <a
-              className="col-span-1 col-start-2"
+          <div className="mt-20 grid grid-cols-6 gap-y-16">
+            <Link
+              className="col-span-full sm:col-span-1 sm:col-start-2"
               href="https://twitter.com/NEXT_Formula"
             >
-              <Xlogo className="h-12 w-12 fill-black stroke-black" />
-            </a>
-            <a
-              className="col-span-1 col-start-4"
+              <Xlogo className="h-12 w-12 fill-black stroke-black mx-auto" />
+            </Link>
+            <Link
+              className="col-span-full sm:col-span-1 sm:col-start-4"
               href="https://www.instagram.com/next.fp/"
             >
-              <InstagramLogo className="h-12 w-12" />
-            </a>
-            <a
-              className="col-span-1 col-start-6 mb-9"
+              <InstagramLogo className="h-12 w-12  mx-auto" />
+            </Link>
+            <Link
+              className="col-span-full sm:col-span-1 sm:col-start-6 mb-9"
               href="https://qiita.com/nextfp"
             >
-              <Image src={QiitaLogo} alt="Qiita Logo" width={54} height={54} />
-            </a>
+              <Image
+                src={QiitaLogo}
+                alt="Qiita Logo"
+                width={54}
+                height={54}
+                className="mx-auto"
+              />
+            </Link>
           </div>
           <div></div>
         </div>
