@@ -29,16 +29,16 @@ export default function Footer() {
               className="col-span-full sm:col-span-1 sm:col-start-2"
               href="https://twitter.com/NEXT_Formula"
             >
-              <Xlogo className="h-12 w-12 fill-black stroke-black mx-auto" />
+              <Xlogo className="mx-auto h-12 w-12 fill-black stroke-black" />
             </Link>
             <Link
               className="col-span-full sm:col-span-1 sm:col-start-4"
               href="https://www.instagram.com/next.fp/"
             >
-              <InstagramLogo className="h-12 w-12  mx-auto" />
+              <InstagramLogo className="mx-auto h-12  w-12" />
             </Link>
             <Link
-              className="col-span-full sm:col-span-1 sm:col-start-6 mb-9"
+              className="col-span-full mb-9 sm:col-span-1 sm:col-start-6"
               href="https://qiita.com/nextfp"
             >
               <Image
