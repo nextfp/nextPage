@@ -7,7 +7,7 @@ import QiitaLogo from "@/public/footer/qiita.png";
 export default function Footer() {
   return (
     <footer className="bg-white">
-      <div className="grid grid-cols-12 pb-6">
+      <div className="mx-auto grid max-w-screen-2xl grid-cols-12 py-12">
         <div className="col-span-5 col-start-2">
           <p className="text-3xl text-black">
             新潟大学学生フォーミュラプロジェクト
