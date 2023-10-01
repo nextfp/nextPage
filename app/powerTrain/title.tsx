@@ -6,7 +6,7 @@ export default function Title() {
     <section className="bg-white">
       <div className="mx-auto max-w-screen-2xl  px-16 py-22">
         <header className="flex flex-col justify-center">
-          <h1 className="text-6xl font-medium text-black self-center">
+          <h1 className="self-center text-6xl font-medium text-black">
             強力なパワートレイン
           </h1>
           <Image
