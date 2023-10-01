@@ -1,7 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
+import Link from "./Link";
+import headerNavLinks from "@/data/headerNavLinks";
 
 const MobileNav = () => {
   const [navshow, setNavshow] = useState(false);
@@ -59,13 +60,17 @@ const MobileNav = () => {
           </button>
         </div>
         <nav className="fixed mt-8 h-full">
-          <Link
-            href="/"
-            className="text-2xl font-bold text-gray-100"
-            onClick={onToggleNav}
-          >
-            Home
-          </Link>
+          {headerNavLinks.map((link) => (
+            <div key={link.title} className="px-12 py-14">
+              <Link
+                href={link.href}
+                className="text-2xl font-bold tracking-widest text-gray-100"
+                onClick={onToggleNav}
+              >
+                {link.title}
+              </Link>
+            </div>
+          ))}
         </nav>
       </div>
     </>
