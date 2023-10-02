@@ -15,7 +15,7 @@ export default function Sponsor() {
           <p className="mt-3">そんなスポンサーの皆様をご紹介します。</p>
         </div>
 
-        <div className="col-span-4 xl:col-span-2">
+        <div className="col-span-4">
           <div className="grid grid-cols-2 gap-16 gap-y-28">
             <SuzukiLogo className="col-span-2 mx-auto sm:col-span-1" />
             <SolidWorksLogo className="col-span-2 mx-auto sm:col-span-1" />
