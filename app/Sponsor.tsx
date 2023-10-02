@@ -17,13 +17,15 @@ export default function Sponsor() {
 
         <div className="col-span-4 xl:col-span-2">
           <div className="grid grid-cols-2 gap-8 lg:gap-16 gap-y-12 lg:gap-y-28">
-            <SuzukiLogo className="col-span-2 mx-auto sm:col-span-1" />
-            <SolidWorksLogo className="col-span-2 mx-auto sm:col-span-1" />
-            <Image
-              className="col-span-2 mx-auto sm:col-span-1"
-              src={wakos}
-              alt="wako's logo"
-            ></Image>
+            <div className="col-span-2 sm:col-span-1">
+              <SuzukiLogo className="" />
+            </div>
+            <div className="col-span-2 sm:col-span-1">
+              <SolidWorksLogo className="" />
+            </div>
+            <div className="col-span-2 mx-auto sm:col-span-1">
+              <Image className="" src={wakos} alt="wako's logo" />
+            </div>
             <h3 className="col-span-2 mx-auto self-center text-3xl sm:col-span-1">
               And more!
             </h3>
