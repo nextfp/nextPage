@@ -16,7 +16,7 @@ export default function Sponsor() {
         </div>
 
         <div className="col-span-4 xl:col-span-2">
-          <div className="grid grid-cols-2 gap-8 lg:gap-16 gap-y-12 lg:gap-y-28">
+          <div className="grid grid-cols-2 gap-8 gap-y-12 lg:gap-16 lg:gap-y-28">
             <div className="col-span-2 sm:col-span-1">
               <SuzukiLogo className="" />
             </div>
