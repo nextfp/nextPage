@@ -22,10 +22,10 @@ export default function Main() {
           </MaskImage>
           <Design>
             <Chassis>
-              <SeeMore href="#" />
+              <SeeMore href="/chassis" />
             </Chassis>
             <PowerTrain>
-              <SeeMore href="#" />
+              <SeeMore href="/powerTrain" />
             </PowerTrain>
           </Design>
           <Sponsor />
