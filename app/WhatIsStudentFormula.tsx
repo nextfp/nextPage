@@ -7,7 +7,7 @@ export default function WhatIsStudentFormula() {
           車輪とドライバーがむき出しになっているレーシングカーのことをフォーミュラカーと言います。
         </p>
         <p className="mt-5 text-base">
-          このフォーミュラカーの最高峰がcフォーミュラワン、F1です。
+          このフォーミュラカーの最高峰がフォーミュラワン、F1です。
         </p>
         <p className="mt-5 text-base">
           これを学生のスケールで行っているのが学生フォーミュラです。
