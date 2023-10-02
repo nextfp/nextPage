@@ -8,7 +8,7 @@ const Introduction = () => {
       {powerTrainList.map((data, index) =>
         data.white ? (
           <section className="bg-white" key={index}>
-            <div className="mx-auto max-w-screen-2xl px-28 py-22">
+            <div className="mx-auto max-w-screen-2xl px-8 py-22 sm:px-28">
               <header>
                 <h2 className="mb-8 text-4xl font-medium text-black">
                   {data.title}
@@ -42,7 +42,7 @@ const Introduction = () => {
           </section>
         ) : (
           <section className="bg-black" key={index}>
-            <div className="mx-auto max-w-screen-2xl px-28 py-22">
+            <div className="mx-auto max-w-screen-2xl px-8 py-22 sm:px-28">
               <header>
                 <h2 className="mb-8 text-4xl font-medium">{data.title}</h2>
               </header>

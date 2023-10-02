@@ -9,7 +9,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full bg-gradient-to-b from-black py-6">
       <div className="container mx-auto  pb-1 text-white">
         <div className="mx-7 flex items-center justify-between">
-          <a className="flex gap-3 items-center" href="./">
+          <a className="flex items-center gap-3" href="./">
             <NextFPLogo />
             <p className="text-2xl font-semibold">Next FP(β)</p>
           </a>
