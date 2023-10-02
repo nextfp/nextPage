@@ -20,21 +20,8 @@ const chassisList = [
     ],
   },
   {
-    title: "ペダル",
-    white: true,
-    element: [
-      {
-        name: "計算された制動力",
-        description:
-          "車重やドライバーの体重、路面μ、マスターシリンダーの断面積など様々な数値から必要な制動力を計算をして理論値を出す。\n また理論値を出す際にペダルの長さを探し、適切な長さ、完全に車体が止まる際の踏力を考えることで設計時にも深く考えることができ、より良いペダルを作りつつしっかり止まることができるものになる",
-        imgSrc: "/chassis/pedalGraph.webp",
-        imgAlt: "pedalGraph",
-      },
-    ],
-  },
-  {
     title: "フレーム",
-    white: false,
+    white: true,
     element: [
       {
         name: "フレームデザインの最適化",
@@ -49,6 +36,32 @@ const chassisList = [
           "試走においてはセンサを導入し、設定した剛性目標が妥当なものであるかを評価するとともに、来年度設計に向けた目標値の検討に役立てています。",
         imgSrc: "/chassis/frameCadImage2.webp",
         imgAlt: "frame Cad Image2",
+      },
+    ],
+  },
+  {
+    title: "ステアリング",
+    white: false,
+    element: [
+      {
+        name: "さらなるハンドリング性能の向上へ",
+        description:
+          "扱いやすい操舵を目指して、\n ドライバーの手に馴染むステアリングの設計や軽くガタの少ないギア周りの設計。",
+        imgSrc: "/chassis/SteeringCadImage.webp",
+        imgAlt: "steering Cad Image",
+      },
+    ],
+  },
+  {
+    title: "ペダル",
+    white: true,
+    element: [
+      {
+        name: "計算された制動力",
+        description:
+          "車重やドライバーの体重、路面μ、マスターシリンダーの断面積など様々な数値から必要な制動力を計算をして理論値を出す。\n また理論値を出す際にペダルの長さを探し、適切な長さ、完全に車体が止まる際の踏力を考えることで設計時にも深く考えることができ、より良いペダルを作りつつしっかり止まることができるものになる",
+        imgSrc: "/chassis/pedalGraph.webp",
+        imgAlt: "pedalGraph",
       },
     ],
   },
