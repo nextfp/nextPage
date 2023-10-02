@@ -32,6 +32,52 @@ const chassisList = [
       },
     ],
   },
+  {
+    title: "フレーム",
+    white: false,
+    element: [
+      {
+        name: "フレームデザインの最適化",
+        description:
+          "フレームでは昨年度フレームとのねじり剛性比較や、目標マシンスペックから算出した剛性目標を目指してフレームの最適化を行っています。また製作のし易さにも着目し、工期の負担を削減するように形状を工夫しています。",
+        imgSrc: "/chassis/frameCadImage1.webp",
+        imgAlt: "frame Cad Image",
+      },
+      {
+        name: "",
+        description:
+          "試走においてはセンサを導入し、設定した剛性目標が妥当なものであるかを評価するとともに、来年度設計に向けた目標値の検討に役立てています。",
+        imgSrc: "/chassis/frameCadImage2.webp",
+        imgAlt: "frame Cad Image2",
+      },
+    ],
+  },
+  {
+    title: "エアロ",
+    white: false,
+    element: [
+      {
+        name: "コーナリング性能の向上",
+        description:
+          "マシンの旋回性能を向上させるために、本マシンには以下のエアロデバイスが搭載されている。/n ・フロントウィング /n ・リアウィング /n ・フロア /n これらにより、安定したダウンフォースを獲得できる。",
+        imgSrc: "/chassis/AeroCadImage.webp",
+        imgAlt: "Aero Cad Image",
+      },
+    ],
+  },
+  {
+    title: "コックピット",
+    white: true,
+    element: [
+      {
+        name: "操作性の向上",
+        description:
+          "ドライバーの快適さと安全性を向上させるため、シート、ヘッドレスト、シフト、クラッチ等の位置を調整して適切なドライビングポジションを作り上げていく。\n これにより、ドライバーが直感的な操作をしやすくなり、高い運転パフォーマンスだけではなく安全性も向上させることができる。",
+        imgSrc: "/chassis/cockPitCadImage.webp",
+        imgAlt: "cockpit Cad Image",
+      },
+    ],
+  },
 ];
 
 export default chassisList;
