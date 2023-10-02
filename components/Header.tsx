@@ -1,14 +1,17 @@
+import Image from "next/image";
 import MobileNav from "./MobileNav";
 import Link from "./Link";
 import headerNavLinks from "@/data/headerNavLinks";
+import NextFPLogo from "@/public/nextFP";
 
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 w-full bg-gradient-to-b from-black py-6">
       <div className="container mx-auto  pb-1 text-white">
         <div className="mx-7 flex items-center justify-between">
-          <a className="text-4xl font-semibold" href="./">
-            Next FP(β)
+          <a className="flex gap-3 items-center" href="./">
+            <NextFPLogo />
+            <p className="text-2xl font-semibold">Next FP(β)</p>
           </a>
           <div className="hidden md:block">
             <div className="flex gap-8">
