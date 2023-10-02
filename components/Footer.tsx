@@ -15,7 +15,7 @@ export default function Footer() {
           <p className="mt-12 text-xl text-black">
             Mail : next-fp@eng.niigata-u.ac.jp
           </p>
-          <p className="mt-12 text-xl text-black">Tel : 070-3880-9917</p>
+          <p className="mt-12 text-xl text-black">Tel : 000-0000-0000</p>
           <p className="mt-12 text-xl text-black">
             Address : <br />
             〒950-2181 新潟県新潟市西区五十嵐2の町8050 新潟大学工学部付属

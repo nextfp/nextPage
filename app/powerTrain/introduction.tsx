@@ -24,7 +24,7 @@ const Introduction = () => {
                       width={633 * 0.8}
                       height={415 * 0.8}
                     />
-                    <div className="col-span-full flex flex-col gap-6 lg:col-span-5">
+                    <div className="col-span-full flex flex-col gap-6 lg:col-span-5 lg:col-start-7">
                       <h3 className="text-xl text-black">{element.name}</h3>
                       <p className="break-all text-xl text-black">
                         {element.description.split("\n").map((line, index) => (
