@@ -19,7 +19,7 @@ const Request = () => {
               スポンサーシップの内容と連絡先
             </p>
             <div className="">
-              <SeeMore href="https://discord.com/channels/@me/1084716730594623581/1159424489256407050" />
+              <SeeMore href="https://drive.google.com/file/d/1qOfmOerrgJmUcZAnNf_dghF_pBilMoio/view?usp=sharing" />
             </div>
           </div>
           <div className="col-span-3 flex flex-col items-center rounded-3xl border border-black p-8 lg:col-span-1">
