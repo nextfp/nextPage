@@ -1,8 +1,6 @@
 import Image from "next/image";
 import Link from "./Link";
-import { XLogo } from "@/app/components/svg";
-import { InstagramLogo } from "@/app/components/svg";
-import { QiitaLogo } from "@/app/components/svg";
+import { XLogo, InstagramLogo, QiitaLogo } from "@/public/svg";
 
 export default function Footer() {
   return (
