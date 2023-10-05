@@ -5,13 +5,13 @@ export default function Digitization() {
     <section className="bg-white">
       <div className="mx-auto grid max-w-screen-2xl grid-cols-12 px-16 py-32 md:gap-16">
         <div className="hidden md:col-span-6 md:inline-block">
-          <div className="flex ">
+          <div className="h-full flex justify-end">
             <Image
-              className=" self-end "
-              src={"/home/DigitizationImage.png"}
+              className="self-end "
+              src={"/home/WhiteMachine.webp"}
               alt="Suspension analysis image"
-              width={500}
-              height={500}
+              width={800}
+              height={800}
             />
           </div>
         </div>
