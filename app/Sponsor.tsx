@@ -1,7 +1,6 @@
 import Image from "next/image";
 import wakos from "@/public/home/wakos.webp";
-import { SuzukiLogo } from "@/public/home/suzuki";
-import { SolidWorksLogo } from "@/public/home/solidWorks";
+import { Suzuki, SolidWorks } from "./components/svg";
 
 export default function Sponsor() {
   return (
@@ -18,10 +17,10 @@ export default function Sponsor() {
         <div className="col-span-4 xl:col-span-2">
           <div className="grid grid-cols-2 gap-8 gap-y-12 lg:gap-16 lg:gap-y-28">
             <div className="col-span-2 sm:col-span-1">
-              <SuzukiLogo className="" />
+              <Suzuki className="" />
             </div>
             <div className="col-span-2 sm:col-span-1">
-              <SolidWorksLogo className="" />
+              <SolidWorks className="" />
             </div>
             <div className="col-span-2 mx-auto sm:col-span-1">
               <Image className="" src={wakos} alt="wako's logo" />

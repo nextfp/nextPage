@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "./Link";
-import { Xlogo } from "@/public/footer/XLogo";
-import { InstagramLogo } from "@/public/footer/InstagramLogo";
-import QiitaLogo from "@/public/footer/qiita.png";
+import { XLogo } from "@/app/components/svg";
+import { InstagramLogo } from "@/app/components/svg";
+import { QiitaLogo } from "@/app/components/svg";
 
 export default function Footer() {
   return (
@@ -29,7 +29,7 @@ export default function Footer() {
               className="col-span-full sm:col-span-1 sm:col-start-2"
               href="https://twitter.com/NEXT_Formula"
             >
-              <Xlogo className="mx-auto h-12 w-12 fill-black stroke-black" />
+              <XLogo className="mx-auto h-12 w-12 fill-black stroke-black" />
             </Link>
             <Link
               className="col-span-full sm:col-span-1 sm:col-start-4"
@@ -41,13 +41,7 @@ export default function Footer() {
               className="col-span-full mb-9 sm:col-span-1 sm:col-start-6"
               href="https://qiita.com/nextfp"
             >
-              <Image
-                src={QiitaLogo}
-                alt="Qiita Logo"
-                width={54}
-                height={54}
-                className="mx-auto"
-              />
+              <QiitaLogo className="mx-auto h-12 w-12 fill-black" />
             </Link>
           </div>
           <div></div>
