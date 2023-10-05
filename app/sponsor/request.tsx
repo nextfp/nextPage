@@ -19,13 +19,13 @@ const Request = () => {
               スポンサーシップの内容と連絡先
             </p>
             <div className="">
-              <SeeMore href="#" />
+              <SeeMore href="https://discord.com/channels/@me/1084716730594623581/1159424489256407050" />
             </div>
           </div>
           <div className="col-span-3 flex flex-col items-center rounded-3xl border border-black p-8 lg:col-span-1">
             <p className="text-2xl text-black">昨年度のスポンサー</p>
             <div className="mt-8">
-              <SeeMore href="#" />
+              <SeeMore href="http://www.eng.niigata-u.ac.jp/~next-fp/sponsors.html" />
             </div>
           </div>
         </div>
