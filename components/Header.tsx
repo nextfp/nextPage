@@ -10,7 +10,7 @@ export default function Header() {
       <div className="container mx-auto  pb-1 text-white">
         <div className="mx-7 flex items-center justify-between">
           <a className="flex items-center gap-3" href="./">
-            <NextFP className="fill-white w-12 h-12" />
+            <NextFP className="h-12 w-12 fill-white" />
             <p className="text-2xl font-semibold">Next FP(β)</p>
           </a>
           <div className="hidden md:block">
