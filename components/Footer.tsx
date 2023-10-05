@@ -21,8 +21,10 @@ export default function Footer() {
           </p>
         </div>
         <div className="col-span-5 col-start-7">
-          <center className="mt-8 text-xl text-black">Follow us on</center>
-          <div className="mt-20 grid grid-cols-6 gap-y-16">
+          <div className="mt-20 grid grid-cols-5 gap-y-16">
+            <center className="col-span-full col-start-1 text-xl text-black sm:col-span-5 sm:col-start-2">
+              Follow us on
+            </center>
             <Link
               className="col-span-full sm:col-span-1 sm:col-start-2"
               href="https://twitter.com/NEXT_Formula"
