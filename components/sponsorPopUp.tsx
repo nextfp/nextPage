@@ -73,7 +73,7 @@ const SponsorPopUp = ({
             closeWithClickOutSideMethod(e);
           }}
         >
-          <div className="h-[700px] w-[700px] bg-black">
+          <div className="mt-40 h-[700px] w-[400px] bg-black md:w-[700px]">
             <div className="flex justify-end">
               <button
                 className="mr-8 mt-8 h-8 w-8"
