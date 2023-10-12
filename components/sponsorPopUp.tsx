@@ -68,12 +68,12 @@ const SponsorPopUp = ({
         }`}
       >
         <div
-          className="flex h-full w-full justify-center items-center"
+          className="flex h-full w-full items-center justify-center"
           onClick={(e) => {
             closeWithClickOutSideMethod(e);
           }}
         >
-          <div className="bg-black w-[700px] h-[700px]">
+          <div className="h-[700px] w-[700px] bg-black">
             <div className="flex justify-end">
               <button
                 className="mr-8 mt-8 h-8 w-8"
@@ -94,7 +94,7 @@ const SponsorPopUp = ({
                 </svg>
               </button>
             </div>
-            <div className="mt-8 h-full flex flex-col gap-12 px-12">
+            <div className="mt-8 flex h-full flex-col gap-12 px-12">
               <h3 className="text-2xl font-bold text-white">{data.title}</h3>
               <Image
                 className="mx-auto"
@@ -111,11 +111,11 @@ const SponsorPopUp = ({
                   </React.Fragment>
                 ))}
               </p>
-              <div className="self-center flex gap-8">
+              <div className="flex gap-8 self-center">
                 {data.homePage == "" ? (
                   <></>
                 ) : (
-                  <div className="w-fit h-fit p-2 rounded-full border border-white">
+                  <div className="h-fit w-fit rounded-full border border-white p-2">
                     <Link href={data.homePage}>
                       <HomeLogo className="fill-white" />
                     </Link>
@@ -124,9 +124,9 @@ const SponsorPopUp = ({
                 {data.twitter == "" ? (
                   <></>
                 ) : (
-                  <div className="w-fit h-fit p-3 rounded-full border border-white">
+                  <div className="h-fit w-fit rounded-full border border-white p-3">
                     <Link href={data.twitter}>
-                      <XLogo className="fill-white w-4 h-4" />
+                      <XLogo className="h-4 w-4 fill-white" />
                     </Link>
                   </div>
                 )}
