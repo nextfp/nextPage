@@ -63,7 +63,7 @@ const SponsorPopUp = ({
         {children}
       </div>
       <div
-        className={`fixed left-4 top-4 z-10 h-full w-full duration-300 ease-in-out ${
+        className={`fixed left-0 top-4 z-10 h-full w-full duration-300 ease-in-out ${
           popshow ? "translate-y-0" : "translate-y-full"
         }`}
       >
@@ -73,7 +73,7 @@ const SponsorPopUp = ({
             closeWithClickOutSideMethod(e);
           }}
         >
-          <div className="mt-40 h-[700px] w-[400px] bg-white md:w-[700px] rounded-3xl">
+          <div className="mt-40 h-[700px] w-[400px] rounded-3xl bg-white md:w-[700px]">
             <div className="flex justify-end">
               <button
                 className="mr-8 mt-8 h-8 w-8"
@@ -84,7 +84,7 @@ const SponsorPopUp = ({
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
-                  className="text-gray-900 dark:text-gray-100 fill-black"
+                  className="fill-black text-gray-900 dark:text-gray-100"
                 >
                   <path
                     fillRule="evenodd"
