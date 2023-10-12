@@ -1,6 +1,7 @@
 import Title from "./title";
 import Request from "./request";
 import VIP from "./VIP";
+import Standard from "./standard";
 
 const Main = () => {
   return (
@@ -15,6 +16,7 @@ const Main = () => {
             </div>
           </div>
           <VIP />
+          <Standard />
         </main>
       </div>
     </div>
