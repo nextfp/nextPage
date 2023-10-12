@@ -11,8 +11,8 @@ const Main = () => {
           <Title />
           <Request />
           <div className=" bg-black ">
-            <div className="mx-auto max-w-screen-2xl px-16 my-12">
-              <h3 className="text-white text-4xl">スポンサーのご紹介</h3>
+            <div className="mx-auto my-12 max-w-screen-2xl px-16">
+              <h3 className="text-4xl text-white">スポンサーのご紹介</h3>
             </div>
             <VIP />
             <Standard />

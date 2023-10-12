@@ -9,10 +9,13 @@ const Standard = () => {
         <div className="col-span-full flex flex-col justify-center md:col-span-6">
           <div className="mt-12 grid grid-cols-6 gap-8 self-center lg:gap-12 xl:gap-22">
             {VIPsponsor.map((data, index) => (
-              <div className="col-span-full md:col-span-3 lg:col-span-2">
+              <div
+                key={index}
+                className="col-span-full md:col-span-3 lg:col-span-2"
+              >
                 <SponsorPopUp data={data}>
                   <div className="rounded-3xl border border-white bg-black">
-                    <div className="p-full bg-white rounded-t-3xl">
+                    <div className="rounded-t-3xl bg-white">
                       <Image
                         className="mx-auto py-8"
                         src={data.Image}

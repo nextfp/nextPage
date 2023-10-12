@@ -5,7 +5,7 @@ export default function Digitization() {
     <section className="bg-white">
       <div className="mx-auto grid max-w-screen-2xl grid-cols-12 px-16 py-32 md:gap-16">
         <div className="hidden md:col-span-6 md:inline-block">
-          <div className="h-full flex justify-end">
+          <div className="flex h-full justify-end">
             <Image
               className="self-end "
               src={"/home/WhiteMachine.webp"}
