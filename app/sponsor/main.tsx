@@ -11,12 +11,12 @@ const Main = () => {
           <Title />
           <Request />
           <div className=" bg-black ">
-            <div className="mx-auto max-w-screen-2xl  px-16 py-8">
+            <div className="mx-auto max-w-screen-2xl px-16 my-12">
               <h3 className="text-white text-4xl">スポンサーのご紹介</h3>
             </div>
+            <VIP />
+            <Standard />
           </div>
-          <VIP />
-          <Standard />
         </main>
       </div>
     </div>

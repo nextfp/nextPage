@@ -5,18 +5,18 @@ import SponsorPopUp from "@/components/sponsorPopUp";
 
 const VIP = () => {
   return (
-    <>
-      {VIPsponsor.map((data, index) => (
-        <div key={index}>
-          <SponsorPopUp data={data}>
-            <section
-              className="bg-cover bg-no-repeat bg-center"
-              style={{ backgroundImage: "url(" + data.bgImage + ")" }}
-              key={index}
-            >
-              <div className="bg-[hsla(0,0%,0%,0.8)] hover:bg-[hsla(0,0%,0%,0.7)]">
-                <div className="mx-auto max-w-screen-2xl px-8 py-22 sm:px-28">
-                  <div className="flex flex-col gap-12 justify-center">
+    <div className="mx-auto max-w-screen-2xl px-16">
+      <div className="flex flex-col">
+        {VIPsponsor.map((data, index) => (
+          <div key={index}>
+            <SponsorPopUp data={data}>
+              <section
+                className="rounded-2xl bg-cover bg-no-repeat bg-center"
+                style={{ backgroundImage: "url(" + data.bgImage + ")" }}
+                key={index}
+              >
+                <div className="rounded-2xl bg-[hsla(0,0%,0%,0.8)] hover:bg-[hsla(0,0%,0%,0.7)]">
+                  <div className="flex flex-col gap-12 justify-center p-16">
                     <header className="self-center lg:self-start">
                       <h2 className="mb-8 text-4xl font-medium text-white">
                         {data.title}
@@ -46,12 +46,12 @@ const VIP = () => {
                     </div>
                   </div>
                 </div>
-              </div>
-            </section>
-          </SponsorPopUp>
-        </div>
-      ))}
-    </>
+              </section>
+            </SponsorPopUp>
+          </div>
+        ))}
+      </div>
+    </div>
   );
 };
 
