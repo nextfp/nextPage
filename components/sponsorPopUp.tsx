@@ -73,7 +73,7 @@ const SponsorPopUp = ({
             closeWithClickOutSideMethod(e);
           }}
         >
-          <div className="mt-40 h-[700px] w-[400px] bg-black md:w-[700px]">
+          <div className="mt-40 h-[700px] w-[400px] bg-white md:w-[700px] rounded-3xl">
             <div className="flex justify-end">
               <button
                 className="mr-8 mt-8 h-8 w-8"
@@ -84,7 +84,7 @@ const SponsorPopUp = ({
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
-                  className="text-gray-900 dark:text-gray-100"
+                  className="text-gray-900 dark:text-gray-100 fill-black"
                 >
                   <path
                     fillRule="evenodd"
@@ -95,7 +95,7 @@ const SponsorPopUp = ({
               </button>
             </div>
             <div className="mt-8 flex h-full flex-col gap-12 px-12">
-              <h3 className="text-2xl font-bold text-white">{data.title}</h3>
+              <h3 className="text-2xl font-bold text-black">{data.title}</h3>
               <Image
                 className="mx-auto"
                 src={data.Image}
@@ -103,7 +103,7 @@ const SponsorPopUp = ({
                 width={633 * 0.8}
                 height={415 * 0.8}
               />
-              <p className="text-white">
+              <p className="text-black">
                 {data.popDescription.split("\n").map((line, index) => (
                   <React.Fragment key={index}>
                     {line}
@@ -115,7 +115,7 @@ const SponsorPopUp = ({
                 {data.homePage == "" ? (
                   <></>
                 ) : (
-                  <div className="h-fit w-fit rounded-full border border-white p-2">
+                  <div className="h-fit w-fit rounded-full border border-black bg-black p-2">
                     <Link href={data.homePage}>
                       <HomeLogo className="fill-white" />
                     </Link>
@@ -124,7 +124,7 @@ const SponsorPopUp = ({
                 {data.twitter == "" ? (
                   <></>
                 ) : (
-                  <div className="h-fit w-fit rounded-full border border-white p-3">
+                  <div className="h-fit w-fit rounded-full border border-black bg-black p-3">
                     <Link href={data.twitter}>
                       <XLogo className="h-4 w-4 fill-white" />
                     </Link>
