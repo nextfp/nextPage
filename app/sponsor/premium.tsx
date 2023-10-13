@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import VIPsponsor from "@/data/VIPsponsor";
+import PremiumSponsor from "@/data/premiumSponsor";
 import SponsorPopUp from "@/components/sponsorPopUp";
 
 const Premium = () => {
@@ -9,7 +9,7 @@ const Premium = () => {
       <div className="mx-auto max-w-screen-2xl px-16 py-12 md:gap-16">
         <div className="col-span-full flex flex-col justify-center md:col-span-6">
           <div className="mt-12 grid grid-cols-2 gap-8 self-center lg:gap-12 xl:gap-22">
-            {VIPsponsor.map((data, index) => (
+            {PremiumSponsor.map((data, index) => (
               <div key={index} className="col-span-full md:col-span-1">
                 <SponsorPopUp data={data}>
                   <div className="rounded-3xl border-2 border-white bg-black hover:scale-105">

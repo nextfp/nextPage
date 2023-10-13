@@ -1,5 +1,5 @@
 import Image from "next/image";
-import VIPsponsor from "@/data/VIPsponsor";
+import StandardSponsor from "@/data/standardSponsor";
 import SponsorPopUp from "@/components/sponsorPopUp";
 
 const Standard = () => {
@@ -8,7 +8,7 @@ const Standard = () => {
       <div className="mx-auto max-w-screen-2xl px-16 py-12 md:gap-16">
         <div className="col-span-full flex flex-col justify-center md:col-span-6">
           <div className="grid grid-cols-6 gap-8 self-center lg:gap-12 xl:gap-22">
-            {VIPsponsor.map((data, index) => (
+            {StandardSponsor.map((data, index) => (
               <div
                 key={index}
                 className="col-span-full md:col-span-3 lg:col-span-2"
