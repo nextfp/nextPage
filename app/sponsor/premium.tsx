@@ -12,12 +12,12 @@ const Premium = () => {
             {VIPsponsor.map((data, index) => (
               <div key={index} className="col-span-full md:col-span-1">
                 <SponsorPopUp data={data}>
-                  <div className="rounded-3xl border-2 border-white bg-black">
+                  <div className="rounded-3xl border-2 border-white bg-black hover:scale-105">
                     <div
-                      className="rounded-t-3xl bg-center bg-cover"
+                      className="rounded-t-3xl bg-cover bg-center"
                       style={{ backgroundImage: "url(" + data.bgImage + ")" }}
                     >
-                      <div className="w-full h-40 rounded-t-3xl bg-[hsla(0,0%,0%,0.6)] hover:bg-[hsla(0,0%,0%,0.5)]" />
+                      <div className="h-40 w-full rounded-t-3xl bg-[hsla(0,0%,0%,0.6)] hover:bg-[hsla(0,0%,0%,0.5)]" />
                     </div>
 
                     <div className="flex flex-col gap-8 p-8">

@@ -14,7 +14,7 @@ const Standard = () => {
                 className="col-span-full md:col-span-3 lg:col-span-2"
               >
                 <SponsorPopUp data={data}>
-                  <div className="rounded-3xl border-2 border-white bg-black">
+                  <div className="rounded-3xl border-2 border-white bg-black hover:scale-105">
                     <div className="rounded-t-2xl bg-white">
                       <Image
                         className="mx-auto py-8"
