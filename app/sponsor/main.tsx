@@ -2,6 +2,7 @@ import Title from "./title";
 import Request from "./request";
 import VIP from "./VIP";
 import Standard from "./standard";
+import Premium from "./premium";
 
 const Main = () => {
   return (
@@ -15,6 +16,7 @@ const Main = () => {
               <h3 className="text-4xl text-white">スポンサーのご紹介</h3>
             </div>
             <VIP />
+            <Premium />
             <Standard />
           </div>
         </main>
