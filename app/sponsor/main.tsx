@@ -3,6 +3,7 @@ import Request from "./request";
 import VIP from "./VIP";
 import Standard from "./standard";
 import Premium from "./premium";
+import Lite from "./lite";
 
 const Main = () => {
   return (
@@ -18,6 +19,7 @@ const Main = () => {
             <VIP />
             <Premium />
             <Standard />
+            <Lite />
           </div>
         </main>
       </div>
