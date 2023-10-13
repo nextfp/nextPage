@@ -1,8 +1,8 @@
 import Image from "next/image";
 import VIPsponsor from "@/data/VIPsponsor";
-import SponsorPopUp from "@/components/sponsorPopUp";
+import Link from "@/components/Link";
 
-const Standard = () => {
+const Lite = () => {
   return (
     <section className="bg-black">
       <div className="mx-auto max-w-screen-2xl px-16 py-12 md:gap-16">
@@ -13,7 +13,7 @@ const Standard = () => {
                 key={index}
                 className="col-span-full md:col-span-3 lg:col-span-2"
               >
-                <SponsorPopUp data={data}>
+                <Link href={data.homePage} className="cursor-pointer">
                   <div className="rounded-3xl border-2 border-white bg-black hover:scale-105">
                     <div className="rounded-t-2xl bg-white">
                       <Image
@@ -30,9 +30,19 @@ const Standard = () => {
                       <p className="">{data.description}</p>
                     </div>
                   </div>
-                </SponsorPopUp>
+                </Link>
               </div>
             ))}
+            <div className="col-span-3 flex flex-col items-center rounded-3xl border border-black p-8 lg:col-span-1">
+              <p className="text-2xl text-black">
+                スポンサーシップの内容と連絡先
+              </p>
+              <div className=""></div>
+            </div>
+            <div className="col-span-3 flex flex-col items-center rounded-3xl border border-black p-8 lg:col-span-1">
+              <p className="text-2xl text-black">昨年度のスポンサー</p>
+              <div className="mt-8"></div>
+            </div>
           </div>
         </div>
       </div>
@@ -40,4 +50,4 @@ const Standard = () => {
   );
 };
 
-export default Standard;
+export default Lite;
