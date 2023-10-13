@@ -33,7 +33,7 @@ const VIP = () => {
                         />
                       </div>
 
-                      <div className="col-span-full flex flex-col gap-6 lg:col-span-5 lg:col-start-7">
+                      <div className="col-span-full flex flex-col gap-6 justify-center lg:col-span-5 lg:col-start-7">
                         <p className="self-center break-all text-xl text-white lg:self-start">
                           {data.description.split("\n").map((line, index) => (
                             <React.Fragment key={index}>
