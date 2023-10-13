@@ -12,7 +12,7 @@ const Premium = () => {
             {VIPsponsor.map((data, index) => (
               <div key={index} className="col-span-full md:col-span-1">
                 <SponsorPopUp data={data}>
-                  <div className="rounded-3xl border border-white bg-black">
+                  <div className="rounded-3xl border-2 border-white bg-black">
                     <div
                       className="rounded-t-3xl bg-center bg-cover"
                       style={{ backgroundImage: "url(" + data.bgImage + ")" }}
