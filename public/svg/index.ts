@@ -5,3 +5,4 @@ export { default as SolidWorks } from "./solidWorks.svg";
 export { default as Suzuki } from "./suzuki.svg";
 export { default as XLogo } from "./XLogo.svg";
 export { default as HomeLogo } from "./homeLogo.svg";
+export { default as YoutubeLogo } from "./youtubeLogo.svg";
