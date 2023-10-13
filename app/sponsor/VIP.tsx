@@ -25,7 +25,7 @@ const VIP = () => {
                     <div className="grid grid-cols-12 gap-4 gap-y-16 md:gap-12">
                       <div className="col-span-full  lg:col-span-5">
                         <Image
-                          className="mx-auto"
+                          className="p-3 rounded-3xl bg-white mx-auto"
                           src={data.Image}
                           alt={data.ImageAlt}
                           width={633 * 0.8}
