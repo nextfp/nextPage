@@ -1,7 +1,7 @@
 const VIPsponsor = [
   {
     title: "株式会社スズキ",
-    Image: "/svg/suzuki.svg",
+    Image: "/sponsor/suzuki.gif",
     svg: "true",
     ImageAlt: "suzuki Logo",
     bgImage: "/sponsor/engineImage.webp",
