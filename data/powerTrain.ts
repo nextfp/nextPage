@@ -30,7 +30,7 @@ const powerTrainList = [
     white: false,
     element: [
       {
-        name: "データローミング",
+        name: "データロギング",
         description:
           "走行の度にエンジン回転数・水温・スロットル開閉度・GPSセンサー・空燃比を計測して、エンジンの燃調セッティングなどを煮詰めていく。\n \n エンジンの最適化 \n \n 取得したデータをフィードバックにより、エンジンのポテンシャルを最大限に引き出すことができるとともに、エンジンの味付けをドライバーに最適化することができる。",
         imgSrc: "/powerTrain/MoteCLog.webp",
@@ -67,6 +67,26 @@ const powerTrainList = [
         description: "シミュレーションｘ測定でVプロセスの達成を目指します",
         imgSrc: "/powerTrain/radiatorGraph.webp",
         imgAlt: "radiator Graph Image",
+      },
+    ],
+  },
+  {
+    title: "駆動",
+    white: "false",
+    element: [
+      {
+        name: "駆動系とは",
+        description:
+          "エンジンのスプロケットから伝達される動力をデファレンシャルギヤなどを介しつつ、タイヤまで伝達する部品装置のことです。",
+        imgSrc: "/powerTrain/differentialMountBefore.webp",
+        imgAlt: "diffential Mount Analysis",
+      },
+      {
+        name: "形状の最適化",
+        description:
+          "デファレンシャルを支えるデフマウントは重量もかかる力も大きいため、軟弱だと上の写真のように曲がってしまいます。強固でなければなりませんが、同時に車体の軽量化のために軽くならなければなりません。そのため解析を重ね最適化していきます。",
+        imgSrc: "/powerTrain/differentialMountAfter.webp",
+        imgAlt: "diffential Mount Analysis",
       },
     ],
   },
