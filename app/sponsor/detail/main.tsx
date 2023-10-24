@@ -4,6 +4,7 @@ import SponsorSupportForm from "./sponsorSupportForm";
 import SponsorBenefit from "./sponsorBenefit";
 import Sticker from "./sticker";
 import PR from "./PR";
+import Poster from "./poster";
 
 const Main = () => {
   return (
@@ -15,6 +16,7 @@ const Main = () => {
           <SponsorBenefit>
             <Sticker />
             <PR />
+            <Poster />
           </SponsorBenefit>
         </main>
       </div>
