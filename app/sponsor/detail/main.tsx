@@ -3,6 +3,7 @@ import Title from "./title";
 import SponsorSupportForm from "./sponsorSupportForm";
 import SponsorBenefit from "./sponsorBenefit";
 import Sticker from "./sticker";
+import PR from "./PR";
 
 const Main = () => {
   return (
@@ -13,6 +14,7 @@ const Main = () => {
           <SponsorSupportForm />
           <SponsorBenefit>
             <Sticker />
+            <PR />
           </SponsorBenefit>
         </main>
       </div>
