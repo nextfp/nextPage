@@ -3,7 +3,7 @@ import SponsorSticker from "@/data/sponsorSticker";
 
 const Sticker = () => {
   return (
-    <>
+    <div className="flex flex-col gap-8">
       <h3 className="text-3xl font-medium text-black">
         1.車体へのステッカー掲載
       </h3>
@@ -34,7 +34,7 @@ const Sticker = () => {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
