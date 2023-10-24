@@ -12,8 +12,8 @@ const Sticker = () => {
         以下の写真は具体例であり、掲載場所が写真のようになるとは限りません。
       </p>
       <div className="grid grid-cols-2 gap-8">
-        {SponsorSticker.map((data) => (
-          <div className="col-span-full md:col-span-1">
+        {SponsorSticker.map((data, index) => (
+          <div key={index} className="col-span-full md:col-span-1">
             <div className="rounded-3xl border-2 border-white bg-black">
               <div className="rounded-t-2xl bg-white">
                 <Image
