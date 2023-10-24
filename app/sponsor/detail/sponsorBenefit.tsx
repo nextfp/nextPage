@@ -8,8 +8,8 @@ const SponsorBenefit = ({ children }: { children: React.ReactNode }) => {
           <h2 className="mb-8 text-4xl font-medium  self-center">
             スポンサー様の特典内容
           </h2>
-          {children}
         </header>
+        {children}
       </div>
     </section>
   );
