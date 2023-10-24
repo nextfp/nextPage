@@ -9,7 +9,7 @@ const SponsorBenefit = ({ children }: { children: React.ReactNode }) => {
             スポンサー様の特典内容
           </h2>
         </header>
-        {children}
+        <div className="flex flex-col gap-16">{children}</div>
       </div>
     </section>
   );

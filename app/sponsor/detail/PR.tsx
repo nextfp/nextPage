@@ -1,6 +1,6 @@
 const PR = () => {
   return (
-    <>
+    <div className="flex flex-col gap-8">
       <h3 className="text-3xl font-medium text-black">
         2.各種SNSにおける広報活動
       </h3>
@@ -10,7 +10,7 @@ const PR = () => {
         <br />
         なお、文言に関しては対象のSNS内の文字制限に応じて、ご相談いただくことも可能です。
       </p>
-    </>
+    </div>
   );
 };
 
