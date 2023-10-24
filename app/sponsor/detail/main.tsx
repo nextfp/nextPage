@@ -1,6 +1,7 @@
 import Sponsor from "@/app/Sponsor";
 import Title from "./title";
 import SponsorSupportForm from "./sponsorSupportForm";
+import SponsorBenefit from "./sponsorBenefit";
 
 const Main = () => {
   return (
@@ -9,6 +10,7 @@ const Main = () => {
         <main className="col-span-full flex flex-col" id="main">
           <Title />
           <SponsorSupportForm />
+          <SponsorBenefit></SponsorBenefit>
         </main>
       </div>
     </div>
