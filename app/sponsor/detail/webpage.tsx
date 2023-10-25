@@ -38,7 +38,7 @@ const WebPage = () => {
     Image: "/sponsor/sponsorLogoOnly.webp",
     svg: "true",
     ImageAlt: "suzuki Logo",
-    bgImage: "/sponsor/sponsorBgExample.webp",
+    bgImage: "/sponsor/SponsorBgExample.webp",
     description:
       "ここに支援内容を書かせていただきます。\n 例:資金提供をしていただいております。",
     popDescription:
@@ -52,7 +52,7 @@ const WebPage = () => {
     Image: "/sponsor/sponsorLogoOnly.webp",
     svg: "true",
     ImageAlt: "suzuki Logo",
-    bgImage: "/sponsor/sponsorBgExample.webp",
+    bgImage: "/sponsor/SponsorBgExample.webp",
     description:
       "ここに支援内容を書かせていただきます。\n 例:資金提供をしていただいております。",
     popDescription:
