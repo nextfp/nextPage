@@ -7,6 +7,7 @@ import PR from "./PR";
 import Poster from "./poster";
 import Report from "./report";
 import WebPage from "./webpage";
+import WebPageExample from "./webPageExample";
 
 const Main = () => {
   return (
@@ -22,6 +23,7 @@ const Main = () => {
             <Report />
             <WebPage />
           </SponsorBenefit>
+          <WebPageExample />
         </main>
       </div>
     </div>
