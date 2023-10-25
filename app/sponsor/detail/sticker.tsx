@@ -17,15 +17,10 @@ const Sticker = () => {
         {SponsorSticker.map((data, index) => (
           <div key={index} className="col-span-full md:col-span-1">
             <div className="rounded-3xl border-2 border-black bg-white">
-              <div className="rounded-t-2xl bg-black">
-                <Image
-                  className="mx-auto py-8"
-                  src={data.img}
-                  alt={data.imgAlt}
-                  width={633 * 0.4}
-                  height={415 * 0.4}
-                />
-              </div>
+              <div
+                className="rounded-t-3xl h-44 bg-center bg-cover"
+                style={{ backgroundImage: "url(" + data.img + ")" }}
+              ></div>
               <div className="flex flex-col gap-8 p-8">
                 <h4 className="text-3xl font-bold text-black">{data.title}</h4>
                 <p className="text-black">{data.description}</p>
