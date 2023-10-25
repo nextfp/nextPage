@@ -6,51 +6,59 @@ import SponsorPopUp from "@/components/sponsorPopUp";
 
 const WebPage = () => {
   const yen400000 = {
-    title: "40000円コース",
-    Image: "/svg/nextFP.svg",
+    title: "40万円株式会社",
+    Image: "/sponsor/sponsorLogoExanmple.webp",
     svg: "true",
     ImageAlt: "suzuki Logo",
-    bgImage: "/sponsor/engineImage.webp",
-    description: "400000円以上の支援をしていただいております。",
-    popDescription: "ここは任意の文章を指定できます。",
-    homePage: "https://www.suzuki.co.jp/",
-    twitter: "https://twitter.com/suzukicojpmotor",
+    bgImage: "/sponsor/sponsorBgExample.webp",
+    description:
+      "ここに支援内容を書かせていただきます。\n 例:資金提供をしていただいております。",
+    popDescription:
+      "ここは任意の文章を指定できます。\n 例:NextFP株式会社は高い技術力を持った学生が生み出すパワフルなマシンを提供する会社です。サイトはTypeScript × Next.js × tailwind cssを採用するなどITにも力を入れています。",
+    homePage: "https://www.eng.niigata-u.ac.jp/~next-fp/index.html",
+    twitter: "https://twitter.com/NEXT_Formula",
   };
 
   const yen300000 = {
-    title: "300000円コース",
-    Image: "/svg/nextFP.svg",
+    title: "30万円株式会社",
+    Image: "/sponsor/sponsorLogoExanmple.webp",
     svg: "true",
     ImageAlt: "suzuki Logo",
-    bgImage: "/sponsor/engineImage.webp",
-    description: "300000円以上の支援をしていただいております。",
-    popDescription: "ここは任意の文章を指定できます。",
-    homePage: "https://www.suzuki.co.jp/",
-    twitter: "https://twitter.com/suzukicojpmotor",
+    bgImage: "/sponsor/sponsorBgExample.webp",
+    description:
+      "ここに支援内容を書かせていただきます。\n 例:資金提供をしていただいております。",
+    popDescription:
+      "ここは任意の文章を指定できます。\n 例:NextFP株式会社は高い技術力を持った学生が生み出すパワフルなマシンを提供する会社です。サイトはTypeScript × Next.js × tailwind cssを採用するなどITにも力を入れています。",
+    homePage: "https://www.eng.niigata-u.ac.jp/~next-fp/index.html",
+    twitter: "https://twitter.com/NEXT_Formula",
   };
 
   const yen150000 = {
-    title: "150000円コース",
-    Image: "/svg/nextFP.svg",
+    title: "15万円株式会社",
+    Image: "/sponsor/sponsorLogoOnly.webp",
     svg: "true",
     ImageAlt: "suzuki Logo",
-    bgImage: "/sponsor/engineImage.webp",
-    description: "150000円以上の支援をしていただいております。",
-    popDescription: "ここは任意の文章を指定できます。",
-    homePage: "https://www.suzuki.co.jp/",
-    twitter: "https://twitter.com/suzukicojpmotor",
+    bgImage: "/sponsor/sponsorBgExample.webp",
+    description:
+      "ここに支援内容を書かせていただきます。\n 例:資金提供をしていただいております。",
+    popDescription:
+      "ここは任意の文章を指定できます。\n 例:NextFP株式会社は高い技術力を持った学生が生み出すパワフルなマシンを提供する会社です。サイトはTypeScript × Next.js × tailwind cssを採用するなどITにも力を入れています。",
+    homePage: "https://www.eng.niigata-u.ac.jp/~next-fp/index.html",
+    twitter: "https://twitter.com/NEXT_Formula",
   };
 
   const yen50000 = {
-    title: "50000円コース",
-    Image: "/svg/nextFP.svg",
+    title: "5万円株式会社",
+    Image: "/sponsor/sponsorLogoOnly.webp",
     svg: "true",
     ImageAlt: "suzuki Logo",
-    bgImage: "/sponsor/engineImage.webp",
-    description: "50000円以上の支援をしていただいております。",
-    popDescription: "ここは任意の文章を指定できます。",
-    homePage: "https://www.suzuki.co.jp/",
-    twitter: "https://twitter.com/suzukicojpmotor",
+    bgImage: "/sponsor/sponsorBgExample.webp",
+    description:
+      "ここに支援内容を書かせていただきます。\n 例:資金提供をしていただいております。",
+    popDescription:
+      "ここは任意の文章を指定できます。\n 例:NextFP株式会社は高い技術力を持った学生が生み出すパワフルなマシンを提供する会社です。サイトはTypeScript × Next.js × tailwind cssを採用するなどITにも力を入れています。",
+    homePage: "https://www.eng.niigata-u.ac.jp/~next-fp/index.html",
+    twitter: "https://twitter.com/NEXT_Formula",
   };
 
   return (
