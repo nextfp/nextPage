@@ -35,7 +35,7 @@ const WebPage = () => {
 
   const yen150000 = {
     title: "15万円株式会社",
-    Image: "/sponsor/sponsorLogoOnly.webp",
+    Image: "/sponsor/SponsorLogoOnly.webp",
     svg: "true",
     ImageAlt: "suzuki Logo",
     bgImage: "/sponsor/SponsorBgExample.webp",
@@ -49,7 +49,7 @@ const WebPage = () => {
 
   const yen50000 = {
     title: "5万円株式会社",
-    Image: "/sponsor/sponsorLogoOnly.webp",
+    Image: "/sponsor/SponsorLogoOnly.webp",
     svg: "true",
     ImageAlt: "suzuki Logo",
     bgImage: "/sponsor/SponsorBgExample.webp",
