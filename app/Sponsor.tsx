@@ -25,9 +25,9 @@ export default function Sponsor() {
             <div className="col-span-2 mx-auto sm:col-span-1">
               <Image className="" src={wakos} alt="wako's logo" />
             </div>
-            <h3 className="col-span-2 mx-auto self-center text-3xl sm:col-span-1">
+            <p className="col-span-2 mx-auto self-center text-3xl sm:col-span-1">
               And more!
-            </h3>
+            </p>
           </div>
         </div>
       </div>
