@@ -11,7 +11,7 @@ export default function Header() {
         <div className="mx-7 flex items-center justify-between">
           <Link className="flex items-center gap-3" href="/">
             <NextFP className="h-12 w-12 fill-white" />
-            <p className="text-2xl font-semibold">Next FP(β)</p>
+            <p className="text-2xl font-semibold">Next FP</p>
           </Link>
           <div className="hidden md:block">
             <div className="flex gap-8">
