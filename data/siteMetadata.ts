@@ -13,7 +13,9 @@ const siteMetadata = {
   github: "https://github.com/nextfp",
   twitter: "https://twitter.com/NEXT_Formula",
   youtube: "https://www.youtube.com/channel/UC4didWGeB9XZ70Q3JeKMtTg",
+  instagram: "https://www.instagram.com/next.fp/",
   locale: "ja",
+  telephone: "+81-25-262-6923",
   analytics: {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.
