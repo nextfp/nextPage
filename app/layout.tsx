@@ -4,9 +4,10 @@ import { Noto_Sans_JP } from "next/font/google";
 import siteMetadata from "@/data/siteMetadata";
 
 const noto = Noto_Sans_JP({
-  weight: ["400", "500", "700"],
+  weight: ["500"],
   subsets: ["latin"],
   display: "swap",
+  variable: "--font-noto",
 });
 
 export const metadata: Metadata = {
