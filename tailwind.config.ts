@@ -17,6 +17,9 @@ const config: Config = {
       spacing: {
         "22": "5.5rem",
       },
+      fontFamily: {
+        sans: ["vars(--font-noto)"],
+      },
     },
   },
   plugins: [],
