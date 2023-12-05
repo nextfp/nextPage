@@ -13,9 +13,9 @@ const WebPage = () => {
         {sponsorWebpage.map((data, index) => (
           <div
             key={index}
-            className="col-span-full md:col-span-1 flex flex-col p-6 max-w-lg text-center text-black rounded-lg border border-gray-500 shadow xl:p-8 bg-white mx-0"
+            className="col-span-full mx-0 flex max-w-lg flex-col rounded-lg border border-gray-500 bg-white p-6 text-center text-black shadow md:col-span-1 xl:p-8"
           >
-            <div className="flex justify-center items-baseline my-8">
+            <div className="my-8 flex items-baseline justify-center">
               <span className="mr-2 text-5xl font-extrabold">{data.title}</span>
               <span className="text-gray-500">{data.suffix}</span>
             </div>
@@ -24,7 +24,7 @@ const WebPage = () => {
               {data.description.map((item, index) => (
                 <li key={index} className="flex items-center space-x-3">
                   <svg
-                    className="flex-shrink-0 w-5 h-5 text-green-500"
+                    className="h-5 w-5 shrink-0 text-green-500"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"

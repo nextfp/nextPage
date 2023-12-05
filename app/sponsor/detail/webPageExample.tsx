@@ -63,7 +63,7 @@ const WebPageExample = () => {
 
   return (
     <section className="">
-      <div className="mx-auto max-w-screen-2xl px-8 pb-22 flex flex-col gap-8 sm:px-28">
+      <div className="mx-auto flex max-w-screen-2xl flex-col gap-8 px-8 pb-22 sm:px-28">
         <div className="flex flex-col gap-16">
           <div className="mt-16 flex flex-col gap-8">
             <h3 className="text-3xl font-medium text-white">

@@ -18,7 +18,7 @@ const Sticker = () => {
           <div key={index} className="col-span-full md:col-span-1">
             <div className="rounded-3xl border-2 border-black bg-white">
               <div
-                className="rounded-t-3xl h-44 bg-center bg-cover"
+                className="h-44 rounded-t-3xl bg-cover bg-center"
                 style={{ backgroundImage: "url(" + data.img + ")" }}
               ></div>
               <div className="flex flex-col gap-8 p-8">
