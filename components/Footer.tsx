@@ -22,7 +22,7 @@ export default function Footer() {
         </div>
         <div className="col-span-5 col-start-7">
           <div className="mt-20 grid grid-cols-5 gap-y-16">
-            <div className="col-span-full sm:col-start-2 grid grid-cols-12 gap-y-10">
+            <div className="col-span-full grid grid-cols-12 gap-y-10 sm:col-start-2">
               <center className="col-span-full text-xl text-black">
                 Follow us on
               </center>
@@ -45,7 +45,7 @@ export default function Footer() {
                 href="https://www.youtube.com/channel/UC4didWGeB9XZ70Q3JeKMtTg"
                 aria-label="Youtube Link"
               >
-                <YoutubeLogo className="mx-auto fill-black w-12 h-12" />
+                <YoutubeLogo className="mx-auto h-12 w-12 fill-black" />
               </Link>
               <Link
                 className="col-span-full mb-9 sm:col-span-6 sm:col-start-7"
