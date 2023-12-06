@@ -1,9 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import VIPsponsor from "@/data/VIPsponsor";
+import { VIPsponsor } from "@/data/SponsorList";
 import SponsorPopUp from "@/components/sponsorPopUp";
 
 const VIP = () => {
+  if (VIPsponsor == null) {
+    return <></>;
+  }
   return (
     <div className="mx-auto max-w-screen-2xl px-16">
       <div className="flex flex-col">
