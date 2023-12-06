@@ -17,15 +17,17 @@ const Lite = () => {
                 className="col-span-full md:col-span-3 lg:col-span-2"
               >
                 <Link href={data.homePage} className="cursor-pointer">
-                  <div className="rounded-3xl border-2 border-white bg-black hover:scale-105">
-                    <div className="rounded-t-2xl bg-white">
-                      <Image
-                        className="mx-auto py-8"
-                        src={data.Image}
-                        alt={data.ImageAlt}
-                        width={633 * 0.4}
-                        height={415 * 0.4}
-                      />
+                  <div className="rounded-3xl border-2 border-white bg-black h-full hover:scale-105">
+                    <div className="rounded-t-2xl bg-white h-[150px]">
+                      <div className="flex justify-center h-full">
+                        <Image
+                          className="mx-auto"
+                          src={data.Image}
+                          alt={data.ImageAlt}
+                          width={633 * 0.5}
+                          height={415 * 0.5}
+                        />
+                      </div>
                     </div>
 
                     <div className="flex flex-col gap-8 p-8">
@@ -36,16 +38,6 @@ const Lite = () => {
                 </Link>
               </div>
             ))}
-            <div className="col-span-3 flex flex-col items-center rounded-3xl border border-black p-8 lg:col-span-1">
-              <p className="text-2xl text-black">
-                スポンサーシップの内容と連絡先
-              </p>
-              <div className=""></div>
-            </div>
-            <div className="col-span-3 flex flex-col items-center rounded-3xl border border-black p-8 lg:col-span-1">
-              <p className="text-2xl text-black">昨年度のスポンサー</p>
-              <div className="mt-8"></div>
-            </div>
           </div>
         </div>
       </div>
