@@ -6,12 +6,12 @@ const PremiumSponsor: sponsor[] | null = null;
 
 const StandardSponsor: sponsor[] | null = null;
 
-const LiteSponsor = [
+const LiteSponsor: sponsor[] | null = [
   {
     title: "株式会社スズキ",
     Image: "/sponsor/suzuki.gif",
-    svg: "true",
     ImageAlt: "suzuki Logo",
+    ImageSize: 0.5,
     bgImage: "/sponsor/engineImage.webp",
     description:
       "エンジン本体やエンジンメンテナンスに使う部品を提供していただいています。",

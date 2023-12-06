@@ -24,8 +24,8 @@ const Lite = () => {
                           className="mx-auto"
                           src={data.Image}
                           alt={data.ImageAlt}
-                          width={633 * 0.5}
-                          height={415 * 0.5}
+                          width={633 * data.ImageSize}
+                          height={415 * data.ImageSize}
                         />
                       </div>
                     </div>
