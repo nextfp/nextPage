@@ -4,7 +4,7 @@ export default function MaskImage({ children }: { children: ReactNode }) {
   return (
     <section className="flex flex-col">
       <div
-        className="h-screen bg-cover bg-no-repeat"
+        className="h-screen bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: `url(/home/Endurance.webp?h=720)`,
         }}
