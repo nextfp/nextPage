@@ -21,7 +21,7 @@ const Lite = () => {
                     <div className="rounded-t-2xl bg-white h-[150px]">
                       <div className="flex justify-center h-full">
                         <Image
-                          className="mx-auto"
+                          className="mx-auto h-fit my-auto"
                           src={data.Image}
                           alt={data.ImageAlt}
                           width={633 * data.ImageSize}
