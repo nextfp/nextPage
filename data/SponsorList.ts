@@ -34,7 +34,7 @@ const LiteSponsor: sponsor[] | null = [
   },
   {
     title: "MathWorks Japan",
-    Image: "/sponsor/sponsorList/mathWorks.svg",
+    Image: "/sponsor/sponsorList/mathworks.svg",
     ImageAlt: "mathWorks Logo",
     ImageSize: 0.5,
     bgImage: "",
@@ -45,7 +45,7 @@ const LiteSponsor: sponsor[] | null = [
   },
   {
     title: "NOK株式会社",
-    Image: "/sponsor/sponsorList/nok.svg",
+    Image: "/sponsor/sponsorList/NOK.svg",
     ImageAlt: "nok Logo",
     ImageSize: 0.35,
     bgImage: "",
