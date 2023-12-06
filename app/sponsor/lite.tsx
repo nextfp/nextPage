@@ -17,11 +17,11 @@ const Lite = () => {
                 className="col-span-full md:col-span-3 lg:col-span-2"
               >
                 <Link href={data.homePage} className="cursor-pointer">
-                  <div className="rounded-3xl border-2 border-white bg-black h-full hover:scale-105">
-                    <div className="rounded-t-2xl bg-white h-[150px]">
-                      <div className="flex justify-center h-full">
+                  <div className="h-full rounded-3xl border-2 border-white bg-black hover:scale-105">
+                    <div className="h-[150px] rounded-t-2xl bg-white">
+                      <div className="flex h-full justify-center">
                         <Image
-                          className="mx-auto h-fit my-auto"
+                          className="m-auto h-fit"
                           src={data.Image}
                           alt={data.ImageAlt}
                           width={633 * data.ImageSize}
