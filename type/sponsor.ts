@@ -4,6 +4,7 @@ interface sponsor {
   bgImage: string;
   Image: string;
   ImageAlt: string;
+  ImageSize: number;
   popDescription: string;
   homePage: string;
   twitter: string;
