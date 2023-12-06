@@ -1,4 +1,12 @@
-const VIPsponsor = [
+import sponsor from "@/type/sponsor";
+
+const VIPsponsor: sponsor[] | null = null;
+
+const PremiumSponsor: sponsor[] | null = null;
+
+const StandardSponsor: sponsor[] | null = null;
+
+const LiteSponsor = [
   {
     title: "株式会社スズキ",
     Image: "/sponsor/suzuki.gif",
@@ -14,4 +22,4 @@ const VIPsponsor = [
   },
 ];
 
-export default VIPsponsor;
+export { VIPsponsor, PremiumSponsor, StandardSponsor, LiteSponsor };

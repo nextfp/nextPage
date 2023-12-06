@@ -1,8 +1,11 @@
 import Image from "next/image";
-import LiteSponsor from "@/data/liteSponsor";
+import { LiteSponsor } from "@/data/SponsorList";
 import Link from "@/components/Link";
 
 const Lite = () => {
+  if (LiteSponsor == null) {
+    return <></>;
+  }
   return (
     <section className="bg-black">
       <div className="mx-auto max-w-screen-2xl px-16 py-12 md:gap-16">
