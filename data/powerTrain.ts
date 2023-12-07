@@ -56,14 +56,14 @@ const powerTrainList = [
     white: false,
     element: [
       {
-        name: "冷却系をしっているか？",
+        name: "冷却系とは",
         description:
-          "冷却系は、エンジンの温度を適切に管理する子事で、熱害による故障を防ぎ、高効率なパワートレインを目指しています。ノッキングやパーコレーション、ベーパ―ロックといった熱害を防止し、安定した燃焼を提供します。水冷システムを、放熱量、重量、消費電力、空気抵抗などの観点で見直し、マシンの性能向上に寄与します。",
+          "冷却系は、エンジンの温度を適切に管理する事で、熱害による故障を防ぎ、高効率なパワートレインを目指しています。ノッキングやパーコレーション、ベーパ―ロックといった熱害を防止し、安定した燃焼を提供します。水冷システムを、放熱量、重量、消費電力、空気抵抗などの観点で見直し、マシンの性能向上に寄与します。",
         imgSrc: "/powerTrain/radiatorThermo.webp",
         imgAlt: "radiator Thermo Image",
       },
       {
-        name: "ここがすごい！！ 冷却系",
+        name: "冷却効率の向上のために",
         description: "シミュレーションｘ測定でVプロセスの達成を目指します",
         imgSrc: "/powerTrain/radiatorGraph.webp",
         imgAlt: "radiator Graph Image",
