@@ -8,7 +8,7 @@ const siteMetadata = {
   siteUrl: "https://next-fp.com/",
   siteRepo: "https://github.com/nextfp/nextPage",
   siteLogo: "/nextFP.png",
-  socialBanner: "/twitter-card.webp",
+  socialBanner: "/twitter-card.png",
   email: "next-fp@eng.niigata-u.ac.jp",
   github: "https://github.com/nextfp",
   twitter: "https://twitter.com/NEXT_Formula",
