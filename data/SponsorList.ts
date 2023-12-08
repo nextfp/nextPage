@@ -211,6 +211,17 @@ const LiteSponsor: sponsor[] | null = [
     twitter: "",
   },
   {
+    title: "株式会社IDAJ",
+    Image: "/sponsor/sponsorList/IDAJ.png",
+    ImageAlt: "IDAJ Logo",
+    ImageSize: 0.5,
+    bgImage: "",
+    description: "解析ソフトウェアを協賛価格にて使用させていただいています。",
+    popDescription: "",
+    homePage: "https://www.idaj.co.jp/",
+    twitter: ""
+  },
+  {
     title: "新潟大学工学部機械システムプログラム",
     Image: "/sponsor/sponsorList/niigata.png",
     ImageAlt: "niigata Logo",
