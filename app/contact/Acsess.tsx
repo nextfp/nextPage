@@ -58,7 +58,7 @@ const Acsess = () => {
               <div className="mt-12 grid grid-cols-1 justify-center gap-y-8 md:grid-cols-2 md:gap-8 lg:grid-cols-3 lg:gap-12 xl:gap-22">
                 <Card
                   title="工学力教育センター"
-                  description="私たちの活動場所を確保してくださっている機関のサイト"
+                  description="私たちの活動を様々な面からサポートしていただいております。"
                   image="/contact/niigata.png"
                   imageAlt="X logo"
                   imageSize={0.2}
