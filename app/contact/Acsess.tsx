@@ -65,7 +65,7 @@ const Acsess = () => {
                   src={"https://www.eng.niigata-u.ac.jp/~ecet/"}
                 />
                 <Image
-                  className="mx-auto h-full"
+                  className="mx-auto h-full rounded-3xl"
                   src="/contact/route.PNG"
                   alt="route"
                   width={500}
@@ -73,7 +73,7 @@ const Acsess = () => {
                 />
                 <div>
                   <iframe
-                    className="h-[400px] w-full lg:h-full"
+                    className="h-[400px] w-full rounded-3xl lg:h-full"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d144585.28723641054!2d139.02061388982142!3d37.88113682569675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff4c733b3f75cdb%3A0xec9e6a827acaedce!2z5paw5r2f5aSn5a2mIOW3peWtpumDqOajnw!5e0!3m2!1sja!2sjp!4v1646917829200!5m2!1sja!2sjp"
                     loading="lazy"
                   ></iframe>
@@ -86,14 +86,14 @@ const Acsess = () => {
       <div className="bg-white">
         <div className="mx-auto max-w-screen-2xl px-16 py-12">
           <div className="flex w-full flex-col justify-center">
-            <h3 className="text-3xl lg:text-4xl text-black mx-auto">
+            <h3 className="mx-auto text-3xl text-black lg:text-4xl">
               スポンサーやリクルートにご興味の企業様
             </h3>
-            <div className="col-span-3 mt-12 mx-auto">
+            <div className="col-span-3 mx-auto mt-12">
               <p className="text-black lg:col-span-1">
                 こちらのメールアドレスまでご連絡いただけると幸いです。
               </p>
-              <p className="mx-auto w-fit mt-4 text-black">
+              <p className="mx-auto mt-4 w-fit text-black">
                 mail: next-fp@eng.niigata-u.ac.jp
               </p>
             </div>
