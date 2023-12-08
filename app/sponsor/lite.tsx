@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { LiteSponsor } from "@/data/SponsorList";
 import Link from "@/components/Link";
+import Card from "@/components/card";
 
 const Lite = () => {
   if (LiteSponsor == null) {
