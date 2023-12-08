@@ -25,7 +25,7 @@ const Request = () => {
           <div className="col-span-3 flex flex-col items-center rounded-3xl border border-black p-8 lg:col-span-1">
             <p className="text-2xl text-black">昨年度のスポンサー</p>
             <div className="mt-8">
-              <SeeMore href="http://www.eng.niigata-u.ac.jp/~next-fp/sponsors.html" />
+              <SeeMore href="https://drive.google.com/file/d/1MexPVPONkoOpAhUA5vAYl0WRd2SxDpIk/view?usp=sharing" />
             </div>
           </div>
         </div>
