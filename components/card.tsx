@@ -14,7 +14,7 @@ const Card = ({
   image: string;
   imageAlt: string;
   imageSize: number;
-  src: URL;
+  src: string;
 }) => {
   return (
     <Link href={src} className="cursor-pointer">
