@@ -86,15 +86,17 @@ const Acsess = () => {
       <div className="bg-white">
         <div className="mx-auto max-w-screen-2xl px-16 py-12">
           <div className="flex w-full flex-col justify-center">
-            <h3 className="self-center text-4xl text-black md:self-start">
+            <h3 className="text-3xl lg:text-4xl text-black mx-auto">
               スポンサーやリクルートにご興味の企業様
             </h3>
-            <p className="col-span-3 mt-12 text-black lg:col-span-1">
-              こちらのメールアドレスまでご連絡いただけると幸いです。
-              <br />
-              <br />
-              mail: next-fp@eng.niigata-u.ac.jp
-            </p>
+            <div className="col-span-3 mt-12 mx-auto">
+              <p className="text-black lg:col-span-1">
+                こちらのメールアドレスまでご連絡いただけると幸いです。
+              </p>
+              <p className="mx-auto w-fit mt-4 text-black">
+                mail: next-fp@eng.niigata-u.ac.jp
+              </p>
+            </div>
           </div>
         </div>
       </div>
