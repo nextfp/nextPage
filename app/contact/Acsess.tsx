@@ -1,6 +1,4 @@
-import SeeMore from "@/components/SeeMore";
 import Image from "next/image";
-import { XLogo } from "@/public/svg";
 import Card from "@/components/card";
 
 const Acsess = () => {
@@ -31,7 +29,7 @@ const Acsess = () => {
                 <Card
                   title="Instagram"
                   description="InstagramのDMよりご連絡ください"
-                  image="svg/InstagramLogo.svg"
+                  image="svg/instagramLogo.svg"
                   imageAlt="instagram logo"
                   imageSize={0.15}
                   src={"https://www.instagram.com/next.fp/"}
