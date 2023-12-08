@@ -7,15 +7,16 @@ const CustomLink = ({
   href,
   ...rest
 }: LinkProps & AnchorHTMLAttributes<HTMLAnchorElement>) => {
+  const url: string = href;
   const isInternalLink = href && href.startsWith("/");
   const isAnchorLink = href && href.startsWith("#");
 
   if (isInternalLink) {
-    return <Link href={href} {...rest} />;
+    return <Link href={url} {...rest} />;
   }
 
   if (isAnchorLink) {
-    return <a href={href} {...rest} />;
+    return <a href={url} {...rest} />;
   }
 
   return <a target="_blank" rel="noopener noreferrer" href={href} {...rest} />;
