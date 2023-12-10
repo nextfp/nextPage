@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="bg-white">
       <div className="mx-auto grid max-w-screen-2xl grid-cols-12 py-12">
         <div className="col-span-5 col-start-2">
-          <p className="text-2xl md:text-3xl text-black">
+          <p className="text-2xl text-black md:text-3xl">
             新潟大学学生フォーミュラプロジェクト
           </p>
           <p className="mt-12 text-xl text-black">

@@ -7,7 +7,7 @@ const Acsess = () => {
       <div className="bg-black">
         <div className="mx-auto max-w-screen-2xl border border-black border-t-white px-16 py-12">
           <div className="flex w-full flex-col justify-center">
-            <h3 className="self-center text-4xl text-white md:self-start">
+            <h3 className="self-center text-3xl text-white sm:text-4xl md:self-start">
               参加を希望される方へ
             </h3>
             <p className="col-span-3 mt-12 text-white lg:col-span-1">
@@ -86,7 +86,7 @@ const Acsess = () => {
       <div className="bg-white">
         <div className="mx-auto max-w-screen-2xl px-16 py-12">
           <div className="flex w-full flex-col justify-center">
-            <h3 className="mx-auto text-3xl text-black lg:text-4xl">
+            <h3 className="mx-auto text-2xl text-black sm:text-3xl lg:text-4xl">
               スポンサーやリクルートにご興味の企業様
             </h3>
             <div className="col-span-3 mx-auto mt-12">
