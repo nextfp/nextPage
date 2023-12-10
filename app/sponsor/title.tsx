@@ -3,7 +3,7 @@ export default function Title() {
     <section className="bg-white">
       <div className="mx-auto max-w-screen-2xl  px-16 py-22">
         <header className="flex flex-col justify-center">
-          <h1 className="self-center text-4xl md:text-6xl text-black">
+          <h1 className="self-center text-4xl text-black md:text-6xl">
             Next FPの
             <br className="md:hidden" />
             スポンサー
