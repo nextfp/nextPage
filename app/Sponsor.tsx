@@ -5,7 +5,7 @@ import { Suzuki, SolidWorks } from "@/public/svg";
 export default function Sponsor() {
   return (
     <section className="mx-auto flex max-w-screen-2xl flex-col gap-11 px-16">
-      <h1 className="text-4xl">私たちのスポンサー</h1>
+      <h1 className="text-3xl md:text-4xl">私たちのスポンサー</h1>
       <div className="grid grid-cols-4 gap-8">
         <div className="col-span-4 xl:col-span-2">
           <p>
