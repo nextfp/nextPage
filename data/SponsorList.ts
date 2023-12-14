@@ -199,7 +199,7 @@ const LiteSponsor: sponsor[] | null = [
     twitter: "",
   },
   {
-    title: "株式会社サンライト",
+    title: "有限会社サンライト",
     Image: "/sponsor/sponsorList/sunlight.jpg",
     ImageAlt: "sunlight Logo",
     ImageSize: 0.5,
