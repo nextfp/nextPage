@@ -155,7 +155,7 @@ const LiteSponsor: sponsor[] | null = [
     twitter: "",
   },
   {
-    title: "CEC新潟情報センター",
+    title: "CEC新潟情報サービス株式会社",
     Image: "/sponsor/sponsorList/CEC.jpg",
     ImageAlt: "aisin Logo",
     ImageSize: 0.5,
@@ -188,7 +188,7 @@ const LiteSponsor: sponsor[] | null = [
     twitter: "",
   },
   {
-    title: "株式会社小林製作所",
+    title: "有限会社小林製作所",
     Image: "/sponsor/sponsorList/kobayashi.jfif",
     ImageAlt: "mitsumi Logo",
     ImageSize: 0.5,
