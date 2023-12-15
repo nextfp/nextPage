@@ -332,7 +332,7 @@ const LiteSponsor: sponsor[] | null = [
     twitter: "",
   },
   {
-    title: "株式会社アルプスアルパイン",
+    title: "アルプスアルパイン株式会社",
     Image: "/sponsor/sponsorList/alpsAlpine.svg",
     ImageAlt: "alpse alpine logo",
     ImageSize: 0.5,
