@@ -238,7 +238,7 @@ const LiteSponsor: sponsor[] | null = [
     ImageSize: 0.4,
     bgImage: "",
     description:
-      "リングボール、クロスローラーリング等を提供していただいております。",
+      "リンクボール、クロスローラーリング等を提供していただいております。",
     popDescription: "",
     homePage: "https://www.thk.com/jp/ja/",
     twitter: "",
