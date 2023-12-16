@@ -173,7 +173,7 @@ const LiteSponsor: sponsor[] | null = [
     bgImage: "",
     description: "資金提供をしていただいております。",
     popDescription: "",
-    homePage: "http://sanpou-g.co.jp/sanpoutei/",
+    homePage: "http://sanpou-g.co.jp/",
     twitter: "",
   },
   {
