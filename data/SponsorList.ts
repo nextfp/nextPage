@@ -343,6 +343,17 @@ const LiteSponsor: sponsor[] | null = [
     twitter: "",
   },
   {
+    title: "株式会社深井製作所",
+    Image: "/sponsor/sponsorList/fukai.jfif",
+    ImageAlt: "",
+    ImageSize: 0.5,
+    bgImage: "",
+    description: "embrella®を提供していただいております。",
+    popDescription: "",
+    homePage: "https://fukai.co.jp/",
+    twitter: "",
+  },
+  {
     title: "新潟大学工学部機械システムプログラム",
     Image: "/sponsor/sponsorList/niigata.png",
     ImageAlt: "niigata Logo",
