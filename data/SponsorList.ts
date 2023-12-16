@@ -386,6 +386,17 @@ const LiteSponsor: sponsor[] | null = [
     homePage: "https://www.eng.niigata-u.ac.jp/~yukyukai/",
     twitter: "",
   },
+  {
+    title: "新潟大学工学部創造工房",
+    Image: "/sponsor/sponsorList/niigata.png",
+    ImageAlt: "niigata Logo",
+    ImageSize: 0.23,
+    bgImage: "",
+    description: "技術指導や部品の加工をしていただいております。",
+    popDescription: "",
+    homePage: "https://www.eng.niigata-u.ac.jp/~tmfact001/",
+    twitter: "",
+  },
 ];
 
 export { VIPsponsor, PremiumSponsor, StandardSponsor, LiteSponsor };
