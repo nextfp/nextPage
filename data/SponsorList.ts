@@ -221,17 +221,6 @@ const LiteSponsor: sponsor[] | null = [
     twitter: "",
   },
   {
-    title: "NOK株式会社",
-    Image: "/sponsor/sponsorList/NOK.svg",
-    ImageAlt: "NOK Logo",
-    ImageSize: 0.35,
-    bgImage: "",
-    description: "ゴム製品や潤滑剤などを提供していただいております。",
-    popDescription: "",
-    homePage: "http://www.nok.co.jp/",
-    twitter: "",
-  },
-  {
     title: "THK株式会社",
     Image: "/sponsor/sponsorList/THK.svg",
     ImageAlt: "THK Logo",
