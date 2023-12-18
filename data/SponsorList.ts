@@ -266,7 +266,7 @@ const LiteSponsor: sponsor[] | null = [
     twitter: "",
   },
   {
-    title: "株式会社ピーエスシー yss事業部",
+    title: "株式会社ピーエムシー yss事業部",
     Image: "/sponsor/sponsorList/yss.png",
     ImageAlt: "yss Logo",
     ImageSize: 0.35,
