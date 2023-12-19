@@ -1,6 +1,6 @@
 const sponsorWebpage = [
   {
-    title: "40万円",
+    title: "50万円",
     suffix: "相当",
     description: [
       "画面いっぱいに掲載",
