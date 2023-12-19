@@ -7,7 +7,7 @@ const WebPage = () => {
         5. Webサイトへのスポンサー名の掲載
       </h3>
       <p className="text-black">
-        社名やロゴ、企業の紹介文を掲載させて頂きます。
+        社名やロゴ、スポンサー様の紹介文を掲載させて頂きます。
       </p>
       <div className="grid grid-cols-2 gap-8">
         {sponsorWebpage.map((data, index) => (
