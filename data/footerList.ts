@@ -11,16 +11,6 @@ const footerList = {
   ],
   link: [
     {
-      name: "YouTube Link",
-      url: "https://www.youtube.com/channel/UC4didWGeB9XZ70Q3JeKMtTg",
-      iconUrl: "/svg/youtubeLogo.svg",
-    },
-    {
-      name: "Qiita Link",
-      url: "https://qiita.com/nextfp",
-      iconUrl: "/svg/qiitaLogo.svg",
-    },
-    {
       name: "Twitter Link",
       url: "https://twitter.com/NEXT_Formula",
       iconUrl: "/svg/XLogo.svg",
@@ -29,6 +19,16 @@ const footerList = {
       name: "Instagram Link",
       url: "https://www.instagram.com/next.fp/",
       iconUrl: "/svg/instagramLogo.svg",
+    },
+    {
+      name: "YouTube Link",
+      url: "https://www.youtube.com/channel/UC4didWGeB9XZ70Q3JeKMtTg",
+      iconUrl: "/svg/youtubeLogo.svg",
+    },
+    {
+      name: "Qiita Link",
+      url: "https://qiita.com/nextfp",
+      iconUrl: "/svg/qiitaLogo.svg",
     },
   ],
 };
