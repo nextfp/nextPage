@@ -73,7 +73,7 @@ const SponsorPopUp = ({
             closeWithClickOutSideMethod(e);
           }}
         >
-          <div className="mt-1/6 min-h-fit max-h-full w-[400px] rounded-3xl bg-white md:w-[700px]">
+          <div className="mt-1/6 max-h-full min-h-fit w-[400px] rounded-3xl bg-white md:w-[700px]">
             <div className="flex justify-end">
               <button
                 className="mr-8 mt-8 h-8 w-8"
@@ -94,11 +94,11 @@ const SponsorPopUp = ({
                 </svg>
               </button>
             </div>
-            <div className="flex max-h-full min-h-fit flex-col gap-6 mb-16 px-12">
+            <div className="mb-16 flex max-h-full min-h-fit flex-col gap-6 px-12">
               <h3 className="text-2xl font-bold text-black">{data.title}</h3>
               <div className=" h-[calc(40%)]">
                 <Image
-                  className="max-h-full max-w-full mx-auto rounded-xl"
+                  className="mx-auto max-h-full max-w-full rounded-xl"
                   src={data.Image}
                   alt={data.ImageAlt}
                   width={633 * 0.8}
