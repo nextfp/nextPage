@@ -73,7 +73,7 @@ const SponsorPopUp = ({
             closeWithClickOutSideMethod(e);
           }}
         >
-          <div className="mt-1/6 h-fit w-[400px] rounded-3xl bg-white md:w-[700px]">
+          <div className="mt-1/6 max-h-full min-h-fit w-[400px] rounded-3xl bg-white md:w-[700px]">
             <div className="flex justify-end">
               <button
                 className="mr-8 mt-8 h-8 w-8"
@@ -94,15 +94,17 @@ const SponsorPopUp = ({
                 </svg>
               </button>
             </div>
-            <div className="flex h-full flex-col gap-12 mb-16 px-12">
+            <div className="mb-16 flex max-h-full min-h-fit flex-col gap-6 px-12">
               <h3 className="text-2xl font-bold text-black">{data.title}</h3>
-              <Image
-                className="mx-auto overflow-hidden rounded-xl"
-                src={data.Image}
-                alt={data.ImageAlt}
-                width={633 * 0.8}
-                height={415 * 0.8}
-              />
+              <div className=" h-[calc(40%)]">
+                <Image
+                  className="mx-auto max-h-full max-w-full rounded-xl"
+                  src={data.Image}
+                  alt={data.ImageAlt}
+                  width={633 * 0.8}
+                  height={415 * 0.8}
+                />
+              </div>
               <p className="text-black">
                 {data.popDescription.split("\n").map((line, index) => (
                   <React.Fragment key={index}>

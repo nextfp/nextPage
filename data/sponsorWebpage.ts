@@ -1,6 +1,6 @@
 const sponsorWebpage = [
   {
-    title: "40万円",
+    title: "50万円",
     suffix: "相当",
     description: [
       "PCからの閲覧では通常のスポンサーの3倍の大きさで掲載",
