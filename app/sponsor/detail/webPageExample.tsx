@@ -6,7 +6,7 @@ import SponsorPopUp from "@/components/sponsorPopUp";
 
 const WebPageExample = () => {
   const yen400000 = {
-    title: "40万円株式会社",
+    title: "50万円株式会社",
     Image: "/sponsor/sponsorLogoExanmple.webp",
     svg: "true",
     ImageAlt: "suzuki Logo",

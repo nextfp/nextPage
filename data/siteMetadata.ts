@@ -5,7 +5,7 @@ const siteMetadata = {
   description: "新潟大学 NEXT学生フォーミュラプロジェクトのサイトです。",
   language: "ja",
   theme: "system", // system, dark or light
-  siteUrl: "https://next-fp.com/",
+  siteUrl: "https://next-fp.com",
   siteRepo: "https://github.com/nextfp/nextPage",
   siteLogo: "/nextFP.png",
   socialBanner: "/twitter-card.png",
