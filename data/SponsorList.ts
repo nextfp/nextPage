@@ -343,6 +343,17 @@ const LiteSponsor: sponsor[] | null = [
     twitter: "",
   },
   {
+    title: "燕三条地場産業振興センター",
+    Image: "/sponsor/sponsorList/tsjiba.png",
+    ImageAlt: "",
+    ImageSize: 0.5,
+    bgImage: "",
+    description: "エンジンの3Dスキャンをさせていただいております。",
+    popDescription: "",
+    homePage: "https://www.tsjiba.or.jp/",
+    twitter: "",
+  },
+  {
     title: "新潟大学工学部機械システムプログラム",
     Image: "/sponsor/sponsorList/niigata.png",
     ImageAlt: "niigata Logo",
