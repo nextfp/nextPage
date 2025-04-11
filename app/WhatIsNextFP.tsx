@@ -1,34 +1,36 @@
-import groupPhoto from "@/public/home/GroupPhoto.webp";
-import Image from "next/image";
+import { textParser } from "@/lib/textParser";
+import Image, { type StaticImageData } from "next/image";
 
-export default function WhatIsNextFP() {
-  return (
-    <section className="mx-auto max-w-screen-2xl  px-16">
-      <div className="flex flex-col gap-12">
-        <div className="grid grid-cols-2 gap-20">
-          <div className="col-span-2 flex flex-col gap-8 lg:col-span-1">
-            <header>
-              <h2 className="text-4xl text-white">Next FPとは</h2>
-            </header>
-            <p className="text-white">
-              毎年9月に開催される学生フォーミュラ日本大会に向けてレーシングマシンを一から造るプロジェクトです
+export const WhatIsNextFP = ({
+  title,
+  content,
+  image,
+}: {
+  title: string;
+  content: string;
+  image: StaticImageData;
+}) => (
+  <section className="mx-auto max-w-screen-2xl  px-16">
+    <div className="flex flex-col gap-12">
+      <div className="grid grid-cols-2 gap-20">
+        <div className="col-span-2 flex flex-col gap-8 lg:col-span-1">
+          <header>
+            <h2 className="text-4xl text-white">{title}</h2>
+          </header>
+          {textParser(content).map((line) => (
+            <p className="text-white" key={line}>
+              {line}
             </p>
-            <p className="text-white">
-              マシンの設計・製作だけでなく、スポンサーとの交流やプレゼンといった経験もできます。
-            </p>
-            <p className="text-white">
-              3DCADや工作機械などによる、本格的なものづくりの楽しさを味わうことができる活動です！
-            </p>
-          </div>
-          <div className="col-span-2 flex lg:col-span-1">
-            <Image
-              className="justify-self-end"
-              src={groupPhoto}
-              alt="Group photo by team members"
-            />
-          </div>
+          ))}
+        </div>
+        <div className="col-span-2 flex lg:col-span-1">
+          <Image
+            className="justify-self-end"
+            src={image}
+            alt="Group photo by team members"
+          />
         </div>
       </div>
-    </section>
-  );
-}
+    </div>
+  </section>
+);

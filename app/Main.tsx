@@ -7,7 +7,7 @@ import { HeroImage } from "./HeroImage";
 import MaskImage from "./MaskImage";
 import PowerTrain from "./PowerTrain";
 import Sponsor from "./Sponsor";
-import WhatIsNextFP from "./WhatIsNextFP";
+import { WhatIsNextFP } from "./WhatIsNextFP";
 import WhatIsStudentFormula from "./WhatIsStudentFormula";
 
 export default function Main() {
@@ -18,7 +18,11 @@ export default function Main() {
           image={homeData.heroImage.image}
           projectName={homeData.heroImage.projectName}
         />
-        <WhatIsNextFP />
+        <WhatIsNextFP
+          title={homeData.whatIs.title}
+          content={homeData.whatIs.content}
+          image={homeData.whatIs.image}
+        />
         <MaskImage>
           <WhatIsStudentFormula />
         </MaskImage>
