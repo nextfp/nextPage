@@ -1,5 +1,4 @@
-import { textParser } from "@/lib/textParser";
-import { Fragment } from "react";
+import { textParseWithBreak } from "@/lib/textParser";
 
 export const HeroImage = ({
   image,
@@ -16,12 +15,7 @@ export const HeroImage = ({
         <div className="grid w-full grid-cols-12">
           <div className="col-span-1" />
           <div className="col-span-10 mt-28 text-5xl font-bold sm:col-span-8 sm:text-6xl md:text-7xl lg:text-8xl text-white">
-            {textParser(projectName).map((line) => (
-              <Fragment key={line}>
-                {line}
-                <br />
-              </Fragment>
-            ))}
+            {textParseWithBreak(projectName)}
           </div>
           <div className="col-span-1 sm:col-span-2" />
         </div>

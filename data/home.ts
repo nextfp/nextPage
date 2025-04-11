@@ -1,4 +1,6 @@
+import chassisImage from "@/public/home/ChassisImage.webp";
 import groupPhoto from "@/public/home/GroupPhoto.webp";
+import radiatorAnalysis from "@/public/home/RadiatorAnalysis.webp";
 
 export const homeData = {
   heroImage: {
@@ -17,4 +19,26 @@ export const homeData = {
     content:
       "車輪とドライバーがむき出しになっているレーシングカーのことをフォーミュラカーと言います。 \n このフォーミュラカーの最高峰がフォーミュラワン、F1です。\n これを学生のスケールで行っているのが学生フォーミュラです。 \n 一年に一度行われている大会に向けて私たちは日々活動しています。",
   },
+  design: [
+    {
+      position: "left",
+      partName: "chassis",
+      title: "シャシー",
+      content: "洗練された形状と構造。",
+      image: chassisImage,
+      imageWidth: 657 * 0.8,
+      imageHeight: 309 * 0.8,
+      link: "/chassis",
+    },
+    {
+      position: "right",
+      partName: "powerTrain",
+      title: "パワートレイン",
+      content: "エンジンの力を極限まで引き出すデザイン",
+      image: radiatorAnalysis,
+      imageWidth: 0,
+      imageHeight: 0,
+      link: "/powerTrain",
+    },
+  ],
 };
