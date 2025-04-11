@@ -12,7 +12,7 @@ export default function Title() {
             私たちの活動はスポンサーなしでは成り立ちません。
           </h2>
         </header>
-        <div className="mt-12"></div>
+        <div className="mt-12" />
       </div>
     </section>
   );

@@ -69,7 +69,7 @@ export default function Digitization() {
             </div>
           </div>
         </div>
-        <div className=""></div>
+        <div className="" />
       </div>
     </section>
   );

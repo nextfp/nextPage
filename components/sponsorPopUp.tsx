@@ -1,10 +1,8 @@
-"use client";
-import { data } from "autoprefixer";
+import { HomeLogo, XLogo } from "@/public/svg";
 import Image from "next/image";
 import React from "react";
 import { useState } from "react";
-import { ReactNode } from "react";
-import { HomeLogo, XLogo } from "@/public/svg";
+import type { ReactNode } from "react";
 import Link from "./Link";
 
 const SponsorPopUp = ({
@@ -55,19 +53,21 @@ const SponsorPopUp = ({
 
   return (
     <>
-      <div
+      <button
+        type="button"
         className="cursor-pointer"
         aria-label="Toggle Menu"
         onClick={handleTogglePop}
       >
         {children}
-      </div>
+      </button>
       <div
         className={`fixed left-0 top-4 z-10 h-full w-full duration-300 ease-in-out ${
           popshow ? "translate-y-0" : " translate-y-full"
         }`}
       >
-        <div
+        <button
+          type="button"
           className="flex h-full w-full items-center justify-center"
           onClick={(e) => {
             closeWithClickOutSideMethod(e);
@@ -76,6 +76,7 @@ const SponsorPopUp = ({
           <div className="mt-1/6 max-h-full min-h-fit w-[400px] rounded-3xl bg-white md:w-[700px]">
             <div className="flex justify-end">
               <button
+                type="button"
                 className="mr-8 mt-8 h-8 w-8"
                 aria-label="Toggle Menu"
                 onClick={handleClosePop}
@@ -86,6 +87,7 @@ const SponsorPopUp = ({
                   fill="currentColor"
                   className="fill-black text-gray-900 dark:text-gray-100"
                 >
+                  <title>Close icon</title>
                   <path
                     fillRule="evenodd"
                     d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
@@ -106,15 +108,15 @@ const SponsorPopUp = ({
                 />
               </div>
               <p className="text-black">
-                {data.popDescription.split("\n").map((line, index) => (
-                  <React.Fragment key={index}>
+                {data.popDescription.split("\n").map((line) => (
+                  <React.Fragment key={line}>
                     {line}
                     <br />
                   </React.Fragment>
                 ))}
               </p>
               <div className="flex gap-8 self-center">
-                {data.homePage == "" ? (
+                {data.homePage === "" ? (
                   <></>
                 ) : (
                   <div className="h-fit w-fit rounded-full border border-black bg-black p-2">
@@ -123,7 +125,7 @@ const SponsorPopUp = ({
                     </Link>
                   </div>
                 )}
-                {data.twitter == "" ? (
+                {data.twitter === "" ? (
                   <></>
                 ) : (
                   <div className="h-fit w-fit rounded-full border border-black bg-black p-3">
@@ -135,7 +137,7 @@ const SponsorPopUp = ({
               </div>
             </div>
           </div>
-        </div>
+        </button>
       </div>
     </>
   );

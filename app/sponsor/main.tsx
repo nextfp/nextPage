@@ -1,9 +1,9 @@
-import Title from "./title";
-import Request from "./request";
 import VIP from "./VIP";
-import Standard from "./standard";
-import Premium from "./premium";
 import Lite from "./lite";
+import Premium from "./premium";
+import Request from "./request";
+import Standard from "./standard";
+import Title from "./title";
 
 const Main = () => {
   return (

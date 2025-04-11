@@ -1,4 +1,4 @@
-import sponsor from "@/type/sponsor";
+import type sponsor from "@/type/sponsor";
 
 const VIPsponsor: sponsor[] | null = null;
 

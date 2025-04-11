@@ -1,6 +1,6 @@
-import Image from "next/image";
-import { ReactNode } from "react";
 import radiatorAnalysis from "@/public/home/RadiatorAnalysis.webp";
+import Image from "next/image";
+import type { ReactNode } from "react";
 
 export default function PowerTrain({ children }: { children: ReactNode }) {
   return (

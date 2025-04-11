@@ -1,9 +1,7 @@
-import React, { Children, ReactNode } from "react";
-import siteMetadata from "@/data/siteMetadata";
-
-import Header from "@/components/Header";
-import Main from "./Main";
 import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import siteMetadata from "@/data/siteMetadata";
+import Main from "./Main";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -32,8 +30,9 @@ export default function Home() {
       <section>
         <script
           type="application/ld+json"
+          // biome-ignore lint/security/noDangerouslySetInnerHtml: JSON-LD埋め込みのため安全を確認済み
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        ></script>
+        />
       </section>
       <Header />
       <Main />

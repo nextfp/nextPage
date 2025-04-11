@@ -1,8 +1,8 @@
-import Image from "next/image";
-import MobileNav from "./MobileNav";
-import Link from "./Link";
 import headerNavLinks from "@/data/headerNavLinks";
 import { NextFP } from "@/public/svg";
+import Image from "next/image";
+import Link from "./Link";
+import MobileNav from "./MobileNav";
 
 export default function Header() {
   return (

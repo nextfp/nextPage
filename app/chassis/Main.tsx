@@ -1,5 +1,5 @@
-import Title from "./Title";
 import Introduction from "./Introduction";
+import Title from "./Title";
 
 export default function Main() {
   return (

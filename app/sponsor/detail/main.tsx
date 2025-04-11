@@ -1,13 +1,12 @@
-import Sponsor from "@/app/Sponsor";
-import Title from "./title";
-import SponsorSupportForm from "./sponsorSupportForm";
-import SponsorBenefit from "./sponsorBenefit";
-import Sticker from "./sticker";
 import PR from "./PR";
 import Poster from "./poster";
 import Report from "./report";
-import WebPage from "./webpage";
+import SponsorBenefit from "./sponsorBenefit";
+import SponsorSupportForm from "./sponsorSupportForm";
+import Sticker from "./sticker";
+import Title from "./title";
 import WebPageExample from "./webPageExample";
+import WebPage from "./webpage";
 
 const Main = () => {
   return (

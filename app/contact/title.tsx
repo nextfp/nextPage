@@ -10,7 +10,7 @@ const Title = () => {
             新入生の方や訪問やご連絡をご希望の方へ
           </h2>
         </header>
-        <div className="mt-12"></div>
+        <div className="mt-12" />
       </div>
     </section>
   );

@@ -1,7 +1,7 @@
-import React, { Children, ReactNode } from "react";
-import Header from "@/components/Header";
-import Main from "./main";
 import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import React, { Children, ReactNode } from "react";
+import Main from "./main";
 
 export const metadata = {
   title: "パワートレイン",

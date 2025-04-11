@@ -1,6 +1,6 @@
-import Image from "next/image";
 import wakos from "@/public/home/wakos.webp";
-import { Suzuki, SolidWorks } from "@/public/svg";
+import { SolidWorks, Suzuki } from "@/public/svg";
+import Image from "next/image";
 
 export default function Sponsor() {
   return (

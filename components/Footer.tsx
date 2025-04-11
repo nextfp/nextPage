@@ -1,7 +1,6 @@
-import Image from "next/image";
-import Link from "./Link";
 import footerList from "@/data/footerList";
 import React from "react";
+import Link from "./Link";
 
 export default function Footer() {
   return (
@@ -11,9 +10,9 @@ export default function Footer() {
           <p className="text-2xl text-black md:text-3xl">{footerList.title}</p>
           {footerList.contact.map((con) => (
             <p key={con.key} className="text-xl text-black">
-              {con.key + " : "}
-              {con.value.split("\n").map((line, index) => (
-                <React.Fragment key={index}>
+              {`${con.key} : `}
+              {con.value.split("\n").map((line) => (
+                <React.Fragment key={line}>
                   {line}
                   <br />
                 </React.Fragment>
@@ -48,7 +47,7 @@ export default function Footer() {
               ))}
             </div>
           </div>
-          <div></div>
+          <div />
         </div>
       </div>
     </footer>

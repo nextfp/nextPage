@@ -1,5 +1,5 @@
-import Image from "next/image";
 import powerTrainImage from "@/public/powerTrain/powerTrainImage.webp";
+import Image from "next/image";
 
 export default function Title() {
   return (
@@ -16,7 +16,7 @@ export default function Title() {
           />
         </header>
         <div className="mt-12">
-          <div className="flex flex-col gap-20"></div>
+          <div className="flex flex-col gap-20" />
         </div>
       </div>
     </section>

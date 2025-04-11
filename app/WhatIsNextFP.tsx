@@ -1,5 +1,5 @@
-import Image from "next/image";
 import groupPhoto from "@/public/home/GroupPhoto.webp";
+import Image from "next/image";
 
 export default function WhatIsNextFP() {
   return (
@@ -25,7 +25,7 @@ export default function WhatIsNextFP() {
               className="justify-self-end"
               src={groupPhoto}
               alt="Group photo by team members"
-            ></Image>
+            />
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
-import Image from "next/image";
 import chassisImage from "@/public/chassis/ChassisImage.webp";
+import Image from "next/image";
 
 export default function Title() {
   return (
@@ -12,7 +12,7 @@ export default function Title() {
           <Image className="self-center" src={chassisImage} alt="Cad ASSY" />
         </header>
         <div className="mt-12">
-          <div className="flex flex-col gap-20"></div>
+          <div className="flex flex-col gap-20" />
         </div>
       </div>
     </section>

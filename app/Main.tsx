@@ -1,14 +1,14 @@
-import React, { Children, ReactNode } from "react";
-import HeroImage from "./HeroImage";
-import WhatIsNextFP from "./WhatIsNextFP";
-import MaskImage from "./MaskImage";
-import WhatIsStudentFormula from "./WhatIsStudentFormula";
 import SeeMore from "@/components/SeeMore";
-import Design from "./Design";
+import React, { Children, ReactNode } from "react";
 import Chassis from "./Chassis";
+import Design from "./Design";
+import Digitization from "./Digitization";
+import HeroImage from "./HeroImage";
+import MaskImage from "./MaskImage";
 import PowerTrain from "./PowerTrain";
 import Sponsor from "./Sponsor";
-import Digitization from "./Digitization";
+import WhatIsNextFP from "./WhatIsNextFP";
+import WhatIsStudentFormula from "./WhatIsStudentFormula";
 
 export default function Main() {
   return (

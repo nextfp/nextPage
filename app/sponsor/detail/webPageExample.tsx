@@ -1,6 +1,6 @@
-import React from "react";
-import Image from "next/image";
 import Link from "@/components/Link";
+import Image from "next/image";
+import React from "react";
 
 import SponsorPopUp from "@/components/sponsorPopUp";
 
@@ -73,7 +73,7 @@ const WebPageExample = () => {
             <SponsorPopUp data={yen400000}>
               <section
                 className="rounded-2xl bg-cover bg-center bg-no-repeat hover:scale-105"
-                style={{ backgroundImage: "url(" + yen400000.bgImage + ")" }}
+                style={{ backgroundImage: `url(${yen400000.bgImage})` }}
               >
                 <div className="rounded-2xl bg-[hsla(0,0%,0%,0.8)] hover:bg-[hsla(0,0%,0%,0.7)]">
                   <div className="flex flex-col justify-center gap-12 p-16">
@@ -95,14 +95,12 @@ const WebPageExample = () => {
 
                       <div className="col-span-full flex flex-col justify-center gap-6 lg:col-span-5 lg:col-start-7">
                         <p className="self-center break-all text-xl text-white lg:self-start">
-                          {yen400000.description
-                            .split("\n")
-                            .map((line, index) => (
-                              <React.Fragment key={index}>
-                                {line}
-                                <br />
-                              </React.Fragment>
-                            ))}
+                          {yen400000.description.split("\n").map((line) => (
+                            <React.Fragment key={line}>
+                              {line}
+                              <br />
+                            </React.Fragment>
+                          ))}
                         </p>
                       </div>
                     </div>
@@ -117,7 +115,7 @@ const WebPageExample = () => {
                     <div
                       className="rounded-t-3xl bg-cover bg-center"
                       style={{
-                        backgroundImage: "url(" + yen300000.bgImage + ")",
+                        backgroundImage: `url(${yen300000.bgImage})`,
                       }}
                     >
                       <div className="h-40 w-full rounded-t-3xl bg-[hsla(0,0%,0%,0.6)] hover:bg-[hsla(0,0%,0%,0.5)]" />

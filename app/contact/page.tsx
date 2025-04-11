@@ -1,7 +1,6 @@
-import React, { Children, ReactNode } from "react";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Main from "./main";
-import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "お問い合わせ",

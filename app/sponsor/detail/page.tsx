@@ -1,7 +1,6 @@
-import React, { Children, ReactNode } from "react";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Main from "./main";
-import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "スポンサーの内容と連絡先",
