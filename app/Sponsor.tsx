@@ -5,13 +5,15 @@ import Image from "next/image";
 export default function Sponsor() {
   return (
     <section className="mx-auto flex max-w-screen-2xl flex-col gap-11 px-16">
-      <h1 className="text-3xl md:text-4xl">私たちのスポンサー</h1>
+      <h1 className="text-3xl md:text-4xl text-white">私たちのスポンサー</h1>
       <div className="grid grid-cols-4 gap-8">
         <div className="col-span-4 xl:col-span-2">
-          <p>
+          <p className="text-white">
             私たちの活動はスポンサーの皆様のご支援がなければ成り立ちません。
           </p>
-          <p className="mt-3">そんなスポンサーの皆様をご紹介します。</p>
+          <p className="mt-3 text-white">
+            そんなスポンサーの皆様をご紹介します。
+          </p>
         </div>
 
         <div className="col-span-4 xl:col-span-2">

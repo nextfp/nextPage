@@ -26,7 +26,7 @@ const jsonLd = {
 
 export default function Home() {
   return (
-    <>
+    <main className="bg-black">
       <section>
         <script
           type="application/ld+json"
@@ -37,6 +37,6 @@ export default function Home() {
       <Header />
       <Main />
       <Footer />
-    </>
+    </main>
   );
 }

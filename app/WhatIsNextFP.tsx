@@ -8,15 +8,15 @@ export default function WhatIsNextFP() {
         <div className="grid grid-cols-2 gap-20">
           <div className="col-span-2 flex flex-col gap-8 lg:col-span-1">
             <header>
-              <h2 className="text-4xl">Next FPとは</h2>
+              <h2 className="text-4xl text-white">Next FPとは</h2>
             </header>
-            <p>
+            <p className="text-white">
               毎年9月に開催される学生フォーミュラ日本大会に向けてレーシングマシンを一から造るプロジェクトです
             </p>
-            <p>
+            <p className="text-white">
               マシンの設計・製作だけでなく、スポンサーとの交流やプレゼンといった経験もできます。
             </p>
-            <p>
+            <p className="text-white">
               3DCADや工作機械などによる、本格的なものづくりの楽しさを味わうことができる活動です！
             </p>
           </div>

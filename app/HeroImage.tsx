@@ -11,7 +11,7 @@ export default function HeroImage() {
           <div className="grid w-full grid-cols-12">
             <div className="col-span-1" />
             <div className="col-span-10 mt-28 text-5xl font-bold sm:col-span-8 sm:text-6xl md:text-7xl lg:text-8xl">
-              <h1 className="break-all">
+              <h1 className="break-all text-white">
                 Next Formula <br />
                 Project
               </h1>
