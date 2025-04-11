@@ -44,14 +44,16 @@ const Introduction = () => {
           <section className="bg-black" key={data.title}>
             <div className="mx-auto max-w-screen-2xl px-8 py-22 sm:px-28">
               <header>
-                <h2 className="mb-8 text-4xl font-medium">{data.title}</h2>
+                <h2 className="mb-8 text-4xl font-medium text-white">
+                  {data.title}
+                </h2>
               </header>
               <div className="grid grid-cols-12 gap-4 md:gap-12">
                 {data.element.map((element) => (
                   <React.Fragment key={element.name}>
                     <div className="col-span-full flex flex-col gap-6 lg:col-span-5">
-                      <h3 className="text-xl">{element.name}</h3>
-                      <p className="break-all text-xl">
+                      <h3 className="text-xl text-white">{element.name}</h3>
+                      <p className="break-all text-xl text-white">
                         {element.description.split("\n").map((line, index) => (
                           <React.Fragment key={line}>
                             {line}
