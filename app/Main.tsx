@@ -4,11 +4,11 @@ import Chassis from "./Chassis";
 import Design from "./Design";
 import Digitization from "./Digitization";
 import { HeroImage } from "./HeroImage";
-import MaskImage from "./MaskImage";
+import { MaskImage } from "./MaskImage";
 import PowerTrain from "./PowerTrain";
 import Sponsor from "./Sponsor";
 import { WhatIsNextFP } from "./WhatIsNextFP";
-import WhatIsStudentFormula from "./WhatIsStudentFormula";
+import { WhatIsStudentFormula } from "./WhatIsStudentFormula";
 
 export default function Main() {
   return (
@@ -19,12 +19,15 @@ export default function Main() {
           projectName={homeData.heroImage.projectName}
         />
         <WhatIsNextFP
-          title={homeData.whatIs.title}
-          content={homeData.whatIs.content}
-          image={homeData.whatIs.image}
+          title={homeData.nextfp.title}
+          content={homeData.nextfp.content}
+          image={homeData.nextfp.image}
         />
-        <MaskImage>
-          <WhatIsStudentFormula />
+        <MaskImage image={homeData.studentFormula.maskImage}>
+          <WhatIsStudentFormula
+            title={homeData.studentFormula.title}
+            content={homeData.studentFormula.content}
+          />
         </MaskImage>
         <Design>
           <Chassis>
