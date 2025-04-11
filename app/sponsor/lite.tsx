@@ -31,8 +31,8 @@ const Lite = () => {
                     </div>
 
                     <div className="flex flex-col gap-8 p-8">
-                      <h4 className="text-2xl">{data.title}</h4>
-                      <p className="">{data.description}</p>
+                      <h4 className="text-2xl text-white">{data.title}</h4>
+                      <p className="text-white">{data.description}</p>
                     </div>
                   </div>
                 </Link>

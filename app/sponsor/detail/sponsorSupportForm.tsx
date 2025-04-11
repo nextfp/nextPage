@@ -3,7 +3,7 @@ const SponsorSupportForm = () => {
     <section className="bg-black">
       <div className="mx-auto flex max-w-screen-2xl flex-col gap-8 border border-black border-t-white px-8 py-22 sm:px-28">
         <header className="mx-auto">
-          <h2 className="mb-8 self-center text-4xl  font-medium">
+          <h2 className="mb-8 self-center text-4xl font-medium text-white">
             スポンサーシップの支援形態
           </h2>
         </header>

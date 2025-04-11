@@ -122,8 +122,8 @@ const WebPageExample = () => {
                     </div>
 
                     <div className="flex flex-col gap-8 p-8">
-                      <h4 className="text-2xl">{yen300000.title}</h4>
-                      <p className="">{yen300000.description}</p>
+                      <h4 className="text-2xl text-white">{yen300000.title}</h4>
+                      <p className="text-white">{yen300000.description}</p>
                     </div>
                   </div>
                 </SponsorPopUp>
@@ -144,8 +144,8 @@ const WebPageExample = () => {
                     </div>
 
                     <div className="flex flex-col gap-8 p-8">
-                      <h4 className="text-2xl">{yen150000.title}</h4>
-                      <p className="">{yen150000.description}</p>
+                      <h4 className="text-2xl text-white">{yen150000.title}</h4>
+                      <p className="text-white">{yen150000.description}</p>
                     </div>
                   </div>
                 </SponsorPopUp>
@@ -166,8 +166,8 @@ const WebPageExample = () => {
                     </div>
 
                     <div className="flex flex-col gap-8 p-8">
-                      <h4 className="text-2xl">{yen50000.title}</h4>
-                      <p className="">{yen50000.description}</p>
+                      <h4 className="text-2xl text-white">{yen50000.title}</h4>
+                      <p className="text-white">{yen50000.description}</p>
                     </div>
                   </div>
                 </Link>

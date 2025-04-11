@@ -1,3 +1,4 @@
+"use client";
 import { HomeLogo, XLogo } from "@/public/svg";
 import Image from "next/image";
 import React from "react";
