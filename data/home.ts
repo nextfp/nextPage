@@ -1,6 +1,7 @@
 import chassisImage from "@/public/home/ChassisImage.webp";
 import groupPhoto from "@/public/home/GroupPhoto.webp";
 import radiatorAnalysis from "@/public/home/RadiatorAnalysis.webp";
+import whiteMachine from "@/public/home/WhiteMachine.webp";
 
 export const homeData = {
   heroImage: {
@@ -41,4 +42,24 @@ export const homeData = {
       link: "/powerTrain",
     },
   ],
+  sponsoer: {
+    title: "私たちのスポンサー",
+    content:
+      "私たちの活動はスポンサーの皆様のご支援がなければ成り立ちません。 \n そんなスポンサーの皆様をご紹介します。",
+  },
+  digitization: {
+    title: "数字で見るNext FP",
+    image: {
+      data: whiteMachine,
+      alt: "white machine image",
+      width: 800,
+      height: 800,
+    },
+    contents: [
+      { num: 5, caption: "部員数" },
+      { num: 27, caption: "スポンサー数" },
+      { num: 22, caption: "2022年度大会総合順位" },
+      { num: 14, caption: "大会出場回数" },
+    ],
+  },
 };

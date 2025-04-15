@@ -1,5 +1,8 @@
 import SeeMore from "@/components/SeeMore";
 import { homeData } from "@/data/home";
+import wakos from "@/public/home/wakos.webp";
+import { SolidWorks, Suzuki } from "@/public/svg";
+import Image from "next/image";
 import { Design, DesignContent } from "./Design";
 import Digitization from "./Digitization";
 import { HeroImage } from "./HeroImage";
@@ -43,8 +46,19 @@ export default function Main() {
             </DesignContent>
           ))}
         </Design>
-        <Sponsor />
-        <Digitization />
+        <Sponsor
+          title={homeData.sponsoer.title}
+          content={homeData.sponsoer.content}
+        >
+          <Suzuki className="" />
+          <SolidWorks className="" />
+          <Image className="" src={wakos} alt="wako's logo" />
+        </Sponsor>
+        <Digitization
+          title={homeData.digitization.title}
+          image={homeData.digitization.image}
+          contents={homeData.digitization.contents}
+        />
       </div>
     </div>
   );

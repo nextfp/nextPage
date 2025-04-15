@@ -1,33 +1,41 @@
-import wakos from "@/public/home/wakos.webp";
-import { SolidWorks, Suzuki } from "@/public/svg";
-import Image from "next/image";
+import { textParser } from "@/lib/textParser";
 
-export default function Sponsor() {
+export default function Sponsor({
+  title,
+  content,
+  children,
+}: { title: string; content: string; children: React.ReactNode[] }) {
+  if (children.length > 3) {
+    children.slice(0, 2);
+  }
+  while (children.length < 3) {
+    children.push(<div className="col-span-2" key={Math.random()} />);
+  }
+
   return (
     <section className="mx-auto flex max-w-screen-2xl flex-col gap-11 px-16">
-      <h1 className="text-3xl md:text-4xl text-white">私たちのスポンサー</h1>
+      <h2 className="text-3xl md:text-4xl text-white">{title}</h2>
       <div className="grid grid-cols-4 gap-8">
-        <div className="col-span-4 xl:col-span-2">
-          <p className="text-white">
-            私たちの活動はスポンサーの皆様のご支援がなければ成り立ちません。
-          </p>
-          <p className="mt-3 text-white">
-            そんなスポンサーの皆様をご紹介します。
-          </p>
+        <div className="col-span-4 xl:col-span-2 gap-3">
+          {textParser(content).map((line) => (
+            <p className="text-white" key={line}>
+              {line}
+            </p>
+          ))}
         </div>
 
         <div className="col-span-4 xl:col-span-2">
           <div className="grid grid-cols-2 gap-8 gap-y-12 lg:gap-16 lg:gap-y-28">
-            <div className="col-span-2 sm:col-span-1">
-              <Suzuki className="" />
-            </div>
-            <div className="col-span-2 sm:col-span-1">
-              <SolidWorks className="" />
-            </div>
-            <div className="col-span-2 mx-auto sm:col-span-1">
-              <Image className="" src={wakos} alt="wako's logo" />
-            </div>
-            <p className="col-span-2 mx-auto self-center text-3xl sm:col-span-1">
+            {children.map((child, index) => (
+              <div
+                className="col-span-2 sm:col-span-1"
+                // biome-ignore lint/suspicious/noArrayIndexKey: 順不同で問題ない
+                key={`sponsor Image ${index}`}
+              >
+                {child}
+              </div>
+            ))}
+            <p className="col-span-2 mx-auto self-center text-3xl sm:col-span-1 text-white">
               And more!
             </p>
           </div>
