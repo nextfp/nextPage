@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import Main from "./main";
+import Acsess from "./Acsess";
+import Title from "./title";
 
 export const metadata = {
   title: "お問い合わせ",
@@ -15,7 +16,14 @@ export default function Home() {
   return (
     <div className="bg-black">
       <Header />
-      <Main />
+      <div className="w-full">
+        <div className="grid grid-cols-12 gap-8">
+          <main className="col-span-full flex flex-col" id="main">
+            <Title />
+            <Acsess />
+          </main>
+        </div>
+      </div>
       <Footer />
     </div>
   );
