@@ -1,4 +1,6 @@
-const chassisList = [
+import type { partType } from "@/type/partType";
+
+const chassisList: partType[] = [
   {
     title: "サスペンション",
     white: false,
