@@ -1,7 +1,7 @@
-import React from "react";
-import Image from "next/image";
-import { VIPsponsor } from "@/data/SponsorList";
 import SponsorPopUp from "@/components/sponsorPopUp";
+import { VIPsponsor } from "@/data/SponsorList";
+import Image from "next/image";
+import React from "react";
 
 const VIP = () => {
   if (VIPsponsor == null) {
@@ -10,13 +10,12 @@ const VIP = () => {
   return (
     <div className="mx-auto max-w-screen-2xl px-16">
       <div className="flex flex-col">
-        {VIPsponsor.map((data, index) => (
-          <div key={index}>
+        {VIPsponsor.map((data) => (
+          <div key={data.title}>
             <SponsorPopUp data={data}>
               <section
                 className="rounded-2xl bg-cover bg-center bg-no-repeat hover:scale-105"
-                style={{ backgroundImage: "url(" + data.bgImage + ")" }}
-                key={index}
+                style={{ backgroundImage: `url(${data.bgImage})` }}
               >
                 <div className="rounded-2xl bg-[hsla(0,0%,0%,0.8)] hover:bg-[hsla(0,0%,0%,0.7)]">
                   <div className="flex flex-col justify-center gap-12 p-16">
@@ -38,8 +37,8 @@ const VIP = () => {
 
                       <div className="col-span-full flex flex-col justify-center gap-6 lg:col-span-5 lg:col-start-7">
                         <p className="self-center break-all text-xl text-white lg:self-start">
-                          {data.description.split("\n").map((line, index) => (
-                            <React.Fragment key={index}>
+                          {data.description.split("\n").map((line) => (
+                            <React.Fragment key={line}>
                               {line}
                               <br />
                             </React.Fragment>

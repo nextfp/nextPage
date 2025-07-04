@@ -10,9 +10,9 @@ const WebPage = () => {
         社名やロゴ、スポンサー様の紹介文を掲載させて頂きます。
       </p>
       <div className="grid grid-cols-2 gap-8">
-        {sponsorWebpage.map((data, index) => (
+        {sponsorWebpage.map((data) => (
           <div
-            key={index}
+            key={data.title}
             className="col-span-full mx-0 flex max-w-lg flex-col rounded-lg border border-gray-500 bg-white p-6 text-center text-black shadow md:col-span-1 xl:p-8"
           >
             <div className="my-8 flex items-baseline justify-center">
@@ -20,16 +20,17 @@ const WebPage = () => {
               <span className="text-gray-500">{data.suffix}</span>
             </div>
 
-            <ul role="list" className="mb-8 space-y-4 text-left">
-              {data.description.map((item, index) => (
-                <li key={index} className="flex items-center space-x-3">
+            <ul className="mb-8 space-y-4 text-left">
+              {data.description.map((item) => (
+                <li key={item} className="flex items-center space-x-3">
                   <svg
                     className="h-5 w-5 shrink-0 text-green-500"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
-                    <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"></path>
+                    <title id="icon-title">check Icon</title>
+                    <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
                   </svg>
                   <span>{item}</span>
                 </li>

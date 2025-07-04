@@ -1,4 +1,7 @@
-const chassisList = [
+import chassisImage from "@/public/chassis/ChassisImage.webp";
+import type { partType } from "@/type/partType";
+
+const chassisList: partType[] = [
   {
     title: "サスペンション",
     white: false,
@@ -93,4 +96,11 @@ const chassisList = [
   },
 ];
 
-export default chassisList;
+export const chassisData = {
+  title: "シャシー",
+  description:
+    "私たちのチームでは、大きく分けると2つのパートに分かれるのですが、そのうちのシャシーパートの説明です。サスペンション、フレーム、ステアリング、ペダル、エアロ、コックピットといったパートがここに含まれます。どのパートも何年もの間引き継がれてきた経験をもとに、工夫を凝らした設計を毎年マシンに反映させています。",
+  heroImage: chassisImage,
+  heroImageAlt: "Cad ASSY",
+  partList: chassisList,
+};

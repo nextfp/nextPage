@@ -1,5 +1,5 @@
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
 
 const Card = ({
   title,
@@ -32,8 +32,8 @@ const Card = ({
         </div>
 
         <div className="flex flex-col gap-8 p-8">
-          <h4 className="text-2xl">{title}</h4>
-          <p className="">{description}</p>
+          <h4 className="text-2xl text-white">{title}</h4>
+          <p className="text-white">{description}</p>
         </div>
       </div>
     </Link>

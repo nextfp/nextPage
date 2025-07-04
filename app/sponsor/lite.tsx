@@ -1,7 +1,6 @@
-import Image from "next/image";
-import { LiteSponsor } from "@/data/SponsorList";
 import Link from "@/components/Link";
-import Card from "@/components/card";
+import { LiteSponsor } from "@/data/SponsorList";
+import Image from "next/image";
 
 const Lite = () => {
   if (LiteSponsor == null) {
@@ -12,9 +11,9 @@ const Lite = () => {
       <div className="mx-auto max-w-screen-2xl px-16 py-12 md:gap-16">
         <div className="col-span-full flex flex-col justify-center md:col-span-6">
           <div className="grid grid-cols-6 gap-8 self-center lg:gap-12 xl:gap-22">
-            {LiteSponsor.map((data, index) => (
+            {LiteSponsor.map((data) => (
               <div
-                key={index}
+                key={data.title}
                 className="col-span-full md:col-span-3 lg:col-span-2"
               >
                 <Link href={data.homePage} className="cursor-pointer">
@@ -32,8 +31,8 @@ const Lite = () => {
                     </div>
 
                     <div className="flex flex-col gap-8 p-8">
-                      <h4 className="text-2xl">{data.title}</h4>
-                      <p className="">{data.description}</p>
+                      <h4 className="text-2xl text-white">{data.title}</h4>
+                      <p className="text-white">{data.description}</p>
                     </div>
                   </div>
                 </Link>

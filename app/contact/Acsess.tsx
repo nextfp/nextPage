@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Card from "@/components/card";
+import Image from "next/image";
 
 const Acsess = () => {
   return (
@@ -73,10 +73,11 @@ const Acsess = () => {
                 />
                 <div>
                   <iframe
+                    title="Google Map"
                     className="h-[400px] w-full rounded-3xl lg:h-full"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d144585.28723641054!2d139.02061388982142!3d37.88113682569675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff4c733b3f75cdb%3A0xec9e6a827acaedce!2z5paw5r2f5aSn5a2mIOW3peWtpumDqOajnw!5e0!3m2!1sja!2sjp!4v1646917829200!5m2!1sja!2sjp"
                     loading="lazy"
-                  ></iframe>
+                  />
                 </div>
               </div>
             </div>

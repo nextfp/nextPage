@@ -3,7 +3,7 @@ const SponsorSupportForm = () => {
     <section className="bg-black">
       <div className="mx-auto flex max-w-screen-2xl flex-col gap-8 border border-black border-t-white px-8 py-22 sm:px-28">
         <header className="mx-auto">
-          <h2 className="mb-8 self-center text-4xl  font-medium">
+          <h2 className="mb-8 self-center text-4xl font-medium text-white">
             スポンサーシップの支援形態
           </h2>
         </header>
@@ -18,7 +18,7 @@ const SponsorSupportForm = () => {
               <span className="text-gray-500 dark:text-gray-400">/一口</span>
             </div>
 
-            <ul role="list" className="mb-8 space-y-4 text-left">
+            <ul className="mb-8 space-y-4 text-left">
               <li className="flex items-center space-x-3">
                 <svg
                   className="h-5 w-5 shrink-0 text-green-500 dark:text-green-400"
@@ -26,7 +26,8 @@ const SponsorSupportForm = () => {
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"></path>
+                  <title id="icon-title">check Icon</title>
+                  <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
                 </svg>
                 <span>企業様は5口から</span>
               </li>
@@ -37,7 +38,8 @@ const SponsorSupportForm = () => {
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"></path>
+                  <title id="icon-title">check Icon</title>
+                  <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
                 </svg>
                 <span>個人様は1口から</span>
               </li>
@@ -55,7 +57,7 @@ const SponsorSupportForm = () => {
               <span className="text-gray-500 dark:text-gray-400">など</span>
             </div>
 
-            <ul role="list" className="mb-8 space-y-4 text-left">
+            <ul className="mb-8 space-y-4 text-left">
               <li className="flex items-center space-x-3">
                 <svg
                   className="h-5 w-5 shrink-0 text-green-500 dark:text-green-400"
@@ -63,7 +65,8 @@ const SponsorSupportForm = () => {
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"></path>
+                  <title id="icon-title">check Icon</title>
+                  <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
                 </svg>
                 <span>
                   金額が不明瞭な支援に関しては、こちらで相当基準を調整させていただきます

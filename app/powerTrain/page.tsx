@@ -1,7 +1,7 @@
-import React, { Children, ReactNode } from "react";
-import Header from "@/components/Header";
-import Main from "./main";
 import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import Introduction from "./introduction";
+import Title from "./title";
 
 export const metadata = {
   title: "パワートレイン",
@@ -16,7 +16,14 @@ export default function Home() {
   return (
     <div className="bg-white">
       <Header />
-      <Main />
+      <div className="w-full">
+        <div className="grid grid-cols-12 gap-8">
+          <main className="col-span-full flex flex-col" id="main">
+            <Title />
+            <Introduction />
+          </main>
+        </div>
+      </div>
       <Footer />
     </div>
   );

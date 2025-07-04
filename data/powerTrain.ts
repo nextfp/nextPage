@@ -1,4 +1,6 @@
-const powerTrainList = [
+import type { partType } from "@/type/partType";
+
+const powerTrainList: partType[] = [
   {
     title: "吸気",
     white: false,
@@ -72,7 +74,7 @@ const powerTrainList = [
   },
   {
     title: "駆動",
-    white: "false",
+    white: false,
     element: [
       {
         name: "駆動系とは",
