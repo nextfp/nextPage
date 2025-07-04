@@ -354,7 +354,7 @@ const LiteSponsor: sponsor[] | null = [
     twitter: "",
   },
   {
-    title: "新潟大学工学部機械システムプログラム",
+    title: "新潟大学工学部機械システム工学プログラム",
     Image: "/sponsor/sponsorList/niigata.png",
     ImageAlt: "niigata Logo",
     ImageSize: 0.23,

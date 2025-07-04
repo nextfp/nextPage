@@ -1,5 +1,5 @@
 import chassisImage from "@/public/home/ChassisImage.webp";
-import groupPhoto from "@/public/home/GroupPhoto.webp";
+import groupPhoto from "@/public/home/NU-24.jpg";
 import radiatorAnalysis from "@/public/home/RadiatorAnalysis.webp";
 import whiteMachine from "@/public/home/WhiteMachine.webp";
 
@@ -56,10 +56,10 @@ export const homeData = {
       height: 800,
     },
     contents: [
-      { num: 5, caption: "部員数" },
+      { num: 30, caption: "部員数" },
       { num: 27, caption: "スポンサー数" },
-      { num: 22, caption: "2022年度大会総合順位" },
-      { num: 14, caption: "大会出場回数" },
+      { num: 46, caption: "2024年度大会総合順位" },
+      { num: 15, caption: "大会出場回数" },
     ],
   },
 };
