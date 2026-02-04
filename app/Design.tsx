@@ -1,6 +1,6 @@
-import { textParseWithBreak } from "@/lib/textParser";
 import Image, { type StaticImageData } from "next/image";
 import type { ReactNode } from "react";
+import { textParseWithBreak } from "@/lib/textParser";
 
 export const Design = ({ children }: { children: ReactNode }) => (
   <section className="bg-white" style={{ margin: "-5.5rem 0 0 0" }}>

@@ -1,6 +1,6 @@
+import Image from "next/image";
 import Link from "@/components/Link";
 import { LiteSponsor } from "@/data/SponsorList";
-import Image from "next/image";
 
 const Lite = () => {
   if (LiteSponsor == null) {

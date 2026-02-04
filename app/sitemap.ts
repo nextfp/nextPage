@@ -1,6 +1,6 @@
+import type { MetadataRoute } from "next";
 import headerNavLinks from "@/data/headerNavLinks";
 import siteMetadata from "@/data/siteMetadata";
-import type { MetadataRoute } from "next";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseURL = siteMetadata.siteUrl;

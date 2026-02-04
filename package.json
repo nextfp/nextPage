@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "fix:lint": "next lint --fix"
+    "fix:lint": "next lint --fix",
+    "biome:check": "biome check",
+    "biome:fix": "biome check --fix"
   },
   "dependencies": {
     "@svgr/webpack": "^8.1.0",

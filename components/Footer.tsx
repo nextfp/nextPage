@@ -1,5 +1,5 @@
-import footerList from "@/data/footerList";
 import React from "react";
+import footerList from "@/data/footerList";
 import Link from "./Link";
 
 export default function Footer() {

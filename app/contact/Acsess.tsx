@@ -1,5 +1,5 @@
-import Card from "@/components/card";
 import Image from "next/image";
+import Card from "@/components/card";
 
 const Acsess = () => {
   return (

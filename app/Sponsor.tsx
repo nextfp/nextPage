@@ -4,7 +4,11 @@ export default function Sponsor({
   title,
   content,
   children,
-}: { title: string; content: string; children: React.ReactNode[] }) {
+}: {
+  title: string;
+  content: string;
+  children: React.ReactNode[];
+}) {
   if (children.length > 3) {
     children.slice(0, 2);
   }

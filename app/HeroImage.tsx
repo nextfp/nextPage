@@ -3,7 +3,10 @@ import { textParseWithBreak } from "@/lib/textParser";
 export const HeroImage = ({
   image,
   projectName,
-}: { image: string; projectName: string }) => (
+}: {
+  image: string;
+  projectName: string;
+}) => (
   <section className="flex flex-col">
     <div
       className="h-screen bg-cover bg-center bg-no-repeat"

@@ -3,7 +3,10 @@ import type { ReactNode } from "react";
 export const MaskImage = ({
   image,
   children,
-}: { image: string; children: ReactNode }) => (
+}: {
+  image: string;
+  children: ReactNode;
+}) => (
   <section className="flex flex-col">
     <div
       className="h-screen bg-cover bg-center bg-no-repeat"

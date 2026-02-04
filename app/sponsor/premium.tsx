@@ -1,7 +1,7 @@
-import SponsorPopUp from "@/components/sponsorPopUp";
-import { PremiumSponsor } from "@/data/SponsorList";
 import Image from "next/image";
 import React from "react";
+import SponsorPopUp from "@/components/sponsorPopUp";
+import { PremiumSponsor } from "@/data/SponsorList";
 
 interface sponsor {
   title: string;

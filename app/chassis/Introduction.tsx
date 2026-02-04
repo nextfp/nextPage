@@ -1,6 +1,6 @@
-import type { partType } from "@/type/partType";
 import Image from "next/image";
 import React from "react";
+import type { partType } from "@/type/partType";
 
 export const Introduction = ({ partList }: { partList: partType[] }) => (
   <>
