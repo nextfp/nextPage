@@ -21,7 +21,7 @@ const Acsess = () => {
                 <Card
                   title="X(旧Twitter)"
                   description="XのDMよりご連絡ください"
-                  image="svg/XLogo.svg"
+                  image="/svg/XLogo.svg"
                   imageAlt="X logo"
                   imageSize={0.15}
                   src={"https://twitter.com/NEXT_Formula"}
@@ -29,7 +29,7 @@ const Acsess = () => {
                 <Card
                   title="Instagram"
                   description="InstagramのDMよりご連絡ください"
-                  image="svg/instagramLogo.svg"
+                  image="/svg/instagramLogo.svg"
                   imageAlt="instagram logo"
                   imageSize={0.15}
                   src={"https://www.instagram.com/next.fp/"}
@@ -37,7 +37,7 @@ const Acsess = () => {
                 <Card
                   title="LINE"
                   description="Lineのオープンチャットよりご連絡ください。"
-                  image="svg/LINELogo.svg"
+                  image="/svg/LINELogo.svg"
                   imageAlt="Line Logo"
                   imageSize={0.15}
                   src="https://line.me/ti/g2/R6s_beE2A6LBTygYeRxOTKlXdUkPsTfDounP7Q?utm_source=invitation&utm_medium=link_copy&utm_campaign=default"
