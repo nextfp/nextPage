@@ -8,8 +8,9 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     python3 \ 
     curl \
+    imagemagick \
     && npm install -g vercel@latest \
-    && apt-get clean && rm -rf /var/lib/apt/lists/*
+    && apt-get clean 
 
 # 非rootユーザーで実行（VS Code DevContainer 標準）
 USER node
