@@ -1,0 +1,33 @@
+{
+  "name": "Next.js Dev (Node 24 Bookworm)",
+  "build": { "dockerfile": "Dockerfile" },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "vercel.vercel",
+        "ms-vscode.vscode-typescript-next",
+        "GitHub.vscode-pull-request-github"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "files.watcherExclude": {
+          "**/.next/**": true,
+          "**/out/**": true,
+          "**/.vercel/**": true
+        }
+      }
+    }
+  },
+  "remoteUser": "node",
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": { "label": "Next.js Dev Server", "onAutoForward": "notify" }
+  },
+  "postCreateCommand": "npm install",
+  // ⚠️ Features セクションを完全に削除（手動インストールで代用）
+  "remoteEnv": {
+    "NODE_ENV": "development"
+  }
+}
