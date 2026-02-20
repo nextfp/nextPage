@@ -7,13 +7,17 @@ const nextConfig = {
           {
             loader: "@svgr/webpack",
             options: {
-              icon: true,
             },
           },
         ],
         as: "*.js",
       },
     },
+  },
+  output: "export",
+  trailingSlash: true,
+  images: {
+    unoptimized: true,
   },
 };
 

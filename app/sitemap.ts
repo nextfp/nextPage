@@ -2,6 +2,8 @@ import type { MetadataRoute } from "next";
 import headerNavLinks from "@/data/headerNavLinks";
 import siteMetadata from "@/data/siteMetadata";
 
+export const dynamic = "force-static";
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseURL = siteMetadata.siteUrl;
   const lastModified: Date = new Date();
