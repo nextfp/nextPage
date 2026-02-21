@@ -11,6 +11,9 @@
     "biome:check": "biome check",
     "biome:fix": "biome check --fix"
   },
+  "engines": {
+    "node": "24.x"
+  },
   "dependencies": {
     "@svgr/webpack": "^8.1.0",
     "@tailwindcss/postcss": "^4.1.18",
