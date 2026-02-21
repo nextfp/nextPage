@@ -1,5 +1,5 @@
-import SponsorSticker from "@/data/sponsorSticker";
 import Image from "next/image";
+import SponsorSticker from "@/data/sponsorSticker";
 
 const Sticker = () => {
   return (

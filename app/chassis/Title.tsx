@@ -4,7 +4,11 @@ export const Title = ({
   title,
   heroImage,
   heroImageAlt,
-}: { title: string; heroImage: StaticImageData; heroImageAlt: string }) => (
+}: {
+  title: string;
+  heroImage: StaticImageData;
+  heroImageAlt: string;
+}) => (
   <section className="bg-white">
     <div className="mx-auto max-w-screen-2xl px-6 py-22 sm:px-16">
       <header className="flex flex-col justify-center">

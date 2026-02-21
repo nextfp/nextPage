@@ -1,5 +1,5 @@
-import { textParser } from "@/lib/textParser";
 import Image, { type StaticImageData } from "next/image";
+import { textParser } from "@/lib/textParser";
 
 export const WhatIsNextFP = ({
   title,

@@ -1,6 +1,6 @@
+import Image from "next/image";
 import SponsorPopUp from "@/components/sponsorPopUp";
 import { StandardSponsor } from "@/data/SponsorList";
-import Image from "next/image";
 
 const Standard = () => {
   if (StandardSponsor == null) {

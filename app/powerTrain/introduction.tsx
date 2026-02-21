@@ -1,6 +1,6 @@
-import powerTrainList from "@/data/powerTrain";
 import Image from "next/image";
 import React from "react";
+import powerTrainList from "@/data/powerTrain";
 
 const Introduction = () => {
   return (

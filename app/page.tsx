@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import SeeMore from "@/components/SeeMore";
@@ -5,7 +6,6 @@ import { homeData } from "@/data/home";
 import siteMetadata from "@/data/siteMetadata";
 import wakos from "@/public/home/wakos.webp";
 import { SolidWorks, Suzuki } from "@/public/svg";
-import Image from "next/image";
 import { Design, DesignContent } from "./Design";
 import Digitization from "./Digitization";
 import { HeroImage } from "./HeroImage";

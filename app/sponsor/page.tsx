@@ -1,11 +1,11 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import VIP from "./VIP";
 import Lite from "./lite";
 import Premium from "./premium";
 import Request from "./request";
 import Standard from "./standard";
 import Title from "./title";
+import VIP from "./VIP";
 
 export const metadata = {
   title: "スポンサー",

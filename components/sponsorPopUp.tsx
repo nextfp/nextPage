@@ -1,9 +1,8 @@
 "use client";
-import { HomeLogo, XLogo } from "@/public/svg";
 import Image from "next/image";
-import React from "react";
-import { useState } from "react";
 import type { ReactNode } from "react";
+import React, { useState } from "react";
+import { HomeLogo, XLogo } from "@/public/svg";
 import Link from "./Link";
 
 const SponsorPopUp = ({

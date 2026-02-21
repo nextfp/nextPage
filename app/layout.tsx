@@ -1,7 +1,7 @@
 import "./globals.css";
-import siteMetadata from "@/data/siteMetadata";
 import type { Metadata } from "next";
 import { Noto_Sans_JP } from "next/font/google";
+import siteMetadata from "@/data/siteMetadata";
 
 const noto = Noto_Sans_JP({
   weight: ["500"],

@@ -1,0 +1,61 @@
+{
+  "name": "Next.js Dev (Node 24 Bookworm)",
+  "build": { "dockerfile": "Dockerfile" },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "biomejs.biome",
+        "vercel.vercel",
+        "ms-vscode.vscode-typescript-next",
+        "GitHub.vscode-pull-request-github"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "files.watcherExclude": {
+          "**/.next/**": true,
+          "**/out/**": true,
+          "**/.vercel/**": true
+        }
+      },
+      "javascript.format.enable": false,
+      "typescript.format.enable": false,
+      "javascriptreact.format.enable": false,
+      "typescriptreact.format.enable": false,
+      "json.format.enable": false,
+      "editor.defaultFormatter": "biomejs.biome",
+      "editor.codeActionsOnSave": {
+          "source.fixAll.biome": "explicit",
+          "source.organizeImports.biome": "explicit"
+      },
+      "[javascript]": {
+          "editor.defaultFormatter": "biomejs.biome"
+      },
+      "[typescript]": {
+        "editor.defaultFormatter": "biomejs.biome"
+      },
+      "[javascriptreact]": {
+        "editor.defaultFormatter": "biomejs.biome"
+      },
+      "[typescriptreact]": {
+        "editor.defaultFormatter": "biomejs.biome"
+      },
+      "[json]": {
+        "editor.defaultFormatter": "biomejs.biome"
+      },
+      "[jsonc]": {
+        "editor.defaultFormatter": "biomejs.biome"
+      },
+      "editor.formatOnSave": true
+    }
+  },
+  "remoteUser": "node",
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": { "label": "Next.js Dev Server", "onAutoForward": "notify" }
+  },
+  "postCreateCommand": "npm install",
+  // ⚠️ Features セクションを完全に削除（手動インストールで代用）
+  "remoteEnv": {
+    "NODE_ENV": "development"
+  }
+}
