@@ -9,7 +9,8 @@
     "lint": "next lint",
     "fix:lint": "next lint --fix",
     "biome:check": "biome check",
-    "biome:fix": "biome check --fix"
+    "biome:fix": "biome check --fix",
+    "deploy": "vercel --prod"
   },
   "engines": {
     "node": "24.x"
