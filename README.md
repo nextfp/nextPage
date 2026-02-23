@@ -11,22 +11,6 @@ https://next-fp-dev.vercel.app/
 https://www.figma.com/file/qcc5C7VvO4PNiLylDK05AW/NewHomePage?type=design&t=FwL08ISscp31Arbk-6
 nextのgoogleアカウントでログインすると、編集することが可能です。
 
-# 必要な環境
-以下より新しい環境を推奨します。
-* Node.js  18.17.1 
-* yarn  1.22.19
-
-# 使い方
-まず、以下のコマンドで必要なパッケージをインストール。
-'''bash
-yarn
-'''
-
-次に、以下のコマンドでサーバーを立ち上げます。
-'''bash
-yarn dev
-'''
-
 # 使用可能なコマンド
 以下のコマンドが使用可能です。
 - リンタの実行
@@ -50,3 +34,7 @@ yarn dev
 - chore: ビルドツールの導入や依存関係を更新など
 
 コミットメッセージを書く際は、必ず上記の接頭辞を付けてコミットしてください。
+
+# 環境の利用方法とスポンサーの追加方法
+
+[ドキュメント](/docs/)
